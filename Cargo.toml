@@ -2,6 +2,7 @@
 name = "bigwasm"
 version = "0.1.0"
 edition = "2024"
+authors = ["Kevin Valerio"]
 
 [dependencies]
 walrus = "0.23.3"

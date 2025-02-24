@@ -62,9 +62,11 @@ fn main() -> Result<()> {
     let debug_message_type = module
         .types
         .add(&[ValType::I32, ValType::I32], &[ValType::I32]);
+
     let (debug_message, _) = module.add_import_func("seal0", "debug_message", debug_message_type);
 
     let mut index = 0;
+
     for (_, func) in module.funcs.iter_local_mut() {
         let entry_block = func.entry_block();
         let builder = func.block_mut(entry_block);
