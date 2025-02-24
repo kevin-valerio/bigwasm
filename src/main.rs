@@ -65,6 +65,7 @@ fn main() -> Result<()> {
 
     let (debug_message, _) = module.add_import_func("seal0", "debug_message", debug_message_type);
 
+    let mut prev_loc: i32 = 0;
     let mut index = 0;
 
     for (_, func) in module.funcs.iter_local_mut() {
@@ -74,8 +75,6 @@ fn main() -> Result<()> {
 
         // Process each instruction and insert debug_message call after control flow ops
         for instr in builder.instrs.iter() {
-            new_instrs.push(instr.clone());
-
             if matches!(
                 instr.0,
                 Instr::Br(_)
@@ -87,10 +86,13 @@ fn main() -> Result<()> {
             ) {
                 println!("Found {:?}, adding callback", instr.0);
 
-                // (i32.const <pointer to feedback>)
+                let cur_loc = index + 1;
+                let edge_id = prev_loc ^ cur_loc;
+                prev_loc = cur_loc >> 1;
+
                 new_instrs.push((
                     Instr::Const(walrus::ir::Const {
-                        value: Value::I32(args.offset + index * SIZE_OF_FEEDBACK),
+                        value: Value::I32(args.offset + edge_id * SIZE_OF_FEEDBACK),
                     }),
                     InstrLocId::new(instr.1.data() + 1),
                 ));
@@ -114,12 +116,11 @@ fn main() -> Result<()> {
 
                 index += 1;
             }
+            new_instrs.push(instr.clone());
         }
         builder.instrs = new_instrs;
     }
-
     module.emit_wasm_file(&args.output)?;
     println!("Instrumentation complete, written to {:?}", args.output);
-
     Ok(())
 }
