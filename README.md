@@ -1,8 +1,8 @@
-# Bigwasm
+# bigwasm
 
 ### Overview
 
-Bigwasm is a proof-of-concept tool for instrumenting WebAssembly blobs with runtime code coverage capabilities. It
+**bigwasm** is a proof-of-concept tool for instrumenting WebAssembly blobs with runtime code coverage capabilities. It
 targets hosts that implement a `seal0.debug_message` function with the signature `[I32, I32] -> [I32]`. 
 
 The instrumentation is achieved by inserting a callback to `debug_message` after each control flow instruction, allowing the
@@ -17,5 +17,5 @@ host to capture coverage data outside the typical sandbox constraints. This work
 ### Usage
 
 ```bash
-cargo run -- input.wasm output.wasm --offset 100000
+cargo run -- fixtures/dummy.wasm instrumented_dummy.wasm --offset 100000
 ```

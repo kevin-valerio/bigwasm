@@ -1,7 +1,6 @@
 use anyhow::{Result, bail};
 use clap::Parser;
-use std::mem::size_of_val;
-use std::path::PathBuf;
+use std::{mem::size_of_val, path::PathBuf};
 use walrus::{
     DataKind, InstrLocId, MemoryId, Module, ValType,
     ir::{Instr, Value},
