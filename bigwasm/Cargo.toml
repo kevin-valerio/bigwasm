@@ -1,7 +1,0 @@
-[package]
-name = "bigwasm"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-walrus = "0.23.3"
