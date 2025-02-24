@@ -1,11 +1,10 @@
-use walrus::ir::{Instr, Value};
-use walrus::{InstrLocId, Module, ValType};
+use walrus::{
+    DataKind, InstrLocId, Module, ValType,
+    ir::{Instr, Value},
+};
 
 use std::error::Error;
-use walrus::DataKind;
-fn add_cov_data_to_wasm() -> Result<(), Box<dyn Error>> {
-    let mut module = Module::from_file("dummy.wasm")?;
-
+fn insert_data(module: &mut Module) -> Result<(), Box<dyn Error>> {
     let cov_data: String = (1..=500).map(|i| format!("COV={:03} ", i)).collect();
 
     let memory_id = module
@@ -34,17 +33,17 @@ fn add_cov_data_to_wasm() -> Result<(), Box<dyn Error>> {
 }
 
 fn main() -> walrus::Result<()> {
-    add_cov_data_to_wasm().unwrap();
-
-    let wasm_file = "dummy_modified.wasm";
+    let wasm_file = "dummy.wasm";
     let mut module = Module::from_file(wasm_file)?;
+
+    insert_data(&mut module).unwrap();
 
     let debug_message_type = module
         .types
         .add(&[ValType::I32, ValType::I32], &[ValType::I32]);
     let (debug_message, _) = module.add_import_func("seal0", "debug_message", debug_message_type);
     let mut index = 0;
-    let size = 8;
+    let size: u32 = size_of_val("COV=000 ") as u32; //size of a COV feedback
     for func in module.funcs.iter_local_mut() {
         let block_id = func.1.entry_block();
         let builder = func.1.block_mut(block_id);
@@ -63,9 +62,9 @@ fn main() -> walrus::Result<()> {
                     | Instr::IfElse(_)
                     | Instr::Loop(_)
             ) {
-                println!("{:?}", instr);
+                println!("Found {:?}, adding callback", instr.0);
 
-                //			(i32.const 0)	;; Pointer to the text buffer
+                //(i32.const 0)	;; Pointer to the text buffer
                 new_instrs.push((
                     Instr::Const(walrus::ir::Const {
                         value: Value::I32(100000 + index * size),
@@ -73,8 +72,7 @@ fn main() -> walrus::Result<()> {
                     InstrLocId::new(instr.1.data() + 1),
                 ));
 
-                // 			(i32.const 1)	;; The size of the buffer
-
+                //(i32.const 1)	;; The size of the buffer
                 new_instrs.push((
                     Instr::Const(walrus::ir::Const {
                         value: Value::I32(size),
