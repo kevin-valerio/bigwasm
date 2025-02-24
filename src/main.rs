@@ -83,6 +83,7 @@ fn main() -> Result<()> {
                     | Instr::BrTable(_)
                     | Instr::IfElse(_)
                     | Instr::Loop(_)
+                    | Instr::Return(_)
             ) {
                 println!("Found {:?}, adding callback", instr.0);
 
