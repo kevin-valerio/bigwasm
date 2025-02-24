@@ -6,20 +6,20 @@ use walrus::{
     ir::{Instr, Value},
 };
 
-const SIZE_OF_FEEDBACK: i32 = size_of_val("COV=000 ") as i32;
+const SIZE_OF_FEEDBACK: i32 = size_of_val("COV=999 ") as i32;
 
 #[derive(Parser)]
 #[clap(author, version, about, long_about = None)]
 struct Args {
-    /// Input WASM file to be instrumented
+    /// WASM blob to be instrumented
     #[clap(value_parser)]
     input: PathBuf,
 
-    /// Output WASM file after instrumentation
+    /// Output for instrumented WASM blob
     #[clap(value_parser)]
     output: PathBuf,
 
-    /// Offset at which to insert the coverage data (default: 100000)
+    /// Offset for the data to be inserted (100000 by default)
     #[clap(short, long, default_value_t = 100000)]
     offset: i32,
 }
@@ -73,7 +73,7 @@ fn main() -> Result<()> {
         let builder = func.block_mut(entry_block);
         let mut new_instrs = Vec::new();
 
-        // Process each instruction and insert debug_message call after control flow ops
+        // For each instruction, if CFG instruction, call `debug_message`
         for instr in builder.instrs.iter() {
             if matches!(
                 instr.0,
@@ -82,21 +82,18 @@ fn main() -> Result<()> {
                     | Instr::BrTable(_)
                     | Instr::IfElse(_)
                     | Instr::Loop(_)
-                    | Instr::Return(_)
             ) {
                 println!("Found {:?}, adding callback", instr.0);
 
-                let cur_loc = index + 1;
-                let edge_id = prev_loc ^ cur_loc;
-                prev_loc = cur_loc >> 1;
 
+                //(i32.const 0)	;; Pointer to the text buffer
                 new_instrs.push((
                     Instr::Const(walrus::ir::Const {
-                        value: Value::I32(args.offset + edge_id * SIZE_OF_FEEDBACK),
+                        value: Value::I32(args.offset + index * SIZE_OF_FEEDBACK),
                     }),
                     InstrLocId::new(instr.1.data() + 1),
                 ));
-                // (i32.const <size of feedback>)
+                // (i32.const 1)	;; The size of the buffer
                 new_instrs.push((
                     Instr::Const(walrus::ir::Const {
                         value: Value::I32(SIZE_OF_FEEDBACK),
