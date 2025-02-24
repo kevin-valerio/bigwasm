@@ -1,33 +1,31 @@
+use anyhow::bail;
 use walrus::{
-    DataKind, InstrLocId, Module, ValType,
+    DataKind, InstrLocId, MemoryId, Module, ValType,
     ir::{Instr, Value},
 };
 
-use std::error::Error;
-fn insert_data(module: &mut Module) -> Result<(), Box<dyn Error>> {
-    let cov_data: String = (1..=500).map(|i| format!("COV={:03} ", i)).collect();
+const SIZE_OF_FEEDBACK: i32 = size_of_val("COV=000 ") as i32; //size of a COV feedback
 
-    let memory_id = module
-        .memories
-        .iter()
-        .next()
-        .expect("No memory found in the module")
-        .id();
+fn insert_data(module: &mut Module) -> anyhow::Result<()> {
+    let cov_data: String = (1..=999).map(|i| format!("COV={:03} ", i)).collect(); //Max map size if 999
+
+    let memory_id: MemoryId = match module.memories.iter().next() {
+        None => bail!("No memory found in the module"),
+        Some(id) => id.id(),
+    };
 
     let data_id = module.data.add(
         DataKind::Active {
             memory: memory_id,
-            offset: walrus::ConstExpr::Value(Value::I32(100000)),
+            offset: walrus::ConstExpr::Value(Value::I32(100000)), //TODO: assume that the last data + size is before `offset`
         },
         cov_data.into_bytes(),
     );
 
     let data_segment = module.data.get(data_id);
     if let DataKind::Active { memory: _, offset } = &data_segment.kind {
-        println!(" offset: {:?}", offset);
+        println!("Cov data put at offset: {:?}", offset);
     }
-
-    module.emit_wasm_file("dummy_modified.wasm")?;
 
     Ok(())
 }
@@ -36,14 +34,13 @@ fn main() -> walrus::Result<()> {
     let wasm_file = "dummy.wasm";
     let mut module = Module::from_file(wasm_file)?;
 
-    insert_data(&mut module).unwrap();
+    insert_data(&mut module)?;
 
     let debug_message_type = module
         .types
         .add(&[ValType::I32, ValType::I32], &[ValType::I32]);
     let (debug_message, _) = module.add_import_func("seal0", "debug_message", debug_message_type);
     let mut index = 0;
-    let size: u32 = size_of_val("COV=000 ") as u32; //size of a COV feedback
     for func in module.funcs.iter_local_mut() {
         let block_id = func.1.entry_block();
         let builder = func.1.block_mut(block_id);
@@ -67,7 +64,7 @@ fn main() -> walrus::Result<()> {
                 //(i32.const 0)	;; Pointer to the text buffer
                 new_instrs.push((
                     Instr::Const(walrus::ir::Const {
-                        value: Value::I32(100000 + index * size),
+                        value: Value::I32(100000 + index * SIZE_OF_FEEDBACK),
                     }),
                     InstrLocId::new(instr.1.data() + 1),
                 ));
@@ -75,7 +72,7 @@ fn main() -> walrus::Result<()> {
                 //(i32.const 1)	;; The size of the buffer
                 new_instrs.push((
                     Instr::Const(walrus::ir::Const {
-                        value: Value::I32(size),
+                        value: Value::I32(SIZE_OF_FEEDBACK),
                     }),
                     InstrLocId::new(instr.1.data() + 2),
                 ));
@@ -99,5 +96,6 @@ fn main() -> walrus::Result<()> {
     }
 
     module.emit_wasm_file("instrumented.wasm")?;
+    println!("Instrumented at instrumented.wasm");
     Ok(())
 }
