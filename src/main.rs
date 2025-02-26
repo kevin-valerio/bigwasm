@@ -37,33 +37,7 @@ fn main() -> Result<()> {
 
         // For each instruction, if CFG instruction, call `debug_message`
         for instr in builder.instrs.iter() {
-            if is_edge(&instr.0) {
-                println!("Found {:?}, adding callback", instr.0);
-
-                new_instrs.push((
-                    Instr::Const(Const {
-                        // pointer to the text buffer
-                        value: I32(OFFSET_DATA + index * SIZE_OF_FEEDBACK),
-                    }),
-                    InstrLocId::default(),
-                ));
-                new_instrs.push((
-                    Instr::Const(Const {
-                        // the size of the buffer
-                        value: I32(SIZE_OF_FEEDBACK),
-                    }),
-                    InstrLocId::default(),
-                ));
-                new_instrs.push((
-                    Instr::Call(Call {
-                        func: debug_message,
-                    }),
-                    InstrLocId::default(),
-                ));
-                new_instrs.push((Instr::Drop(ir::Drop {}), InstrLocId::default()));
-
-                index += 1;
-            }
+            new_instrs.extend(insert_message(debug_message, &mut index, &instr));
             new_instrs.push(instr.clone());
         }
         builder.instrs = new_instrs;
@@ -72,6 +46,41 @@ fn main() -> Result<()> {
     module.emit_wasm_file(&args.output)?;
     println!("Instrumentation complete, written to {:?}", args.output);
     Ok(())
+}
+
+fn insert_message(
+    debug_message: FunctionId,
+    index: &mut i32,
+    instr: &(Instr, InstrLocId),
+) -> Vec<(Instr, InstrLocId)> {
+    let mut new_instrs: Vec<(Instr, InstrLocId)> = Vec::new();
+    if is_edge(&instr.0) {
+        println!("Found {:?}, adding callback with index {index}", instr.0);
+
+        new_instrs.push((
+            Instr::Const(Const {
+                // pointer to the text buffer
+                value: I32(OFFSET_DATA + *index * SIZE_OF_FEEDBACK),
+            }),
+            InstrLocId::default(),
+        ));
+        new_instrs.push((
+            Instr::Const(Const {
+                // the size of the buffer
+                value: I32(SIZE_OF_FEEDBACK),
+            }),
+            InstrLocId::default(),
+        ));
+        new_instrs.push((
+            Instr::Call(Call {
+                func: debug_message,
+            }),
+            InstrLocId::default(),
+        ));
+        new_instrs.push((Instr::Drop(ir::Drop {}), InstrLocId::default()));
+        *index += 1;
+    }
+    new_instrs
 }
 
 /// Returns true if the given instruction represents a control–flow edge
