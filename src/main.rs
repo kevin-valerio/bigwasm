@@ -28,7 +28,7 @@ fn main() -> Result<()> {
     let args = Args::parse();
     let mut module = Module::from_file(&args.input)?;
     insert_data(&mut module)?;
-    
+
     let mut index = 0;
 
     instrument(module, &mut index);
@@ -85,6 +85,7 @@ pub fn instrument(mut module: Module, index: &mut i32) {
                     | Instr::BrTable(_)
                     | Instr::IfElse(_)
                     | Instr::Loop(_) => {
+                        *index += 1;
                         new_instructions.extend_from_slice(&[
                             ((
                                 Instr::Const(Const {
