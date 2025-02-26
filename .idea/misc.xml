@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsBuildToolPackageJson" sorting="DEFINITION_ORDER" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectUserFactors">
+    <factor id="completionFinishedType">
+      <dailyData date="13-02-2023">
+        <observation name="cancelled" value="5,0" />
+      </dailyData>
+      <dailyData date="19-08-2024">
+        <observation name="explicitSelect" value="3,0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="13-02-2023">
+        <observation name="BASIC" value="2,0" />
+      </dailyData>
+      <dailyData date="19-08-2024">
+        <observation name="BASIC" value="3,0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="13-02-2023">
+        <observation name="count" value="5,0" />
+      </dailyData>
+      <dailyData date="19-08-2024">
+        <observation name="count" value="3,0" />
+      </dailyData>
+    </factor>
+    <factor id="fullLineFactors" />
+    <factor id="itemPosition">
+      <dailyData date="19-08-2024">
+        <observation name="0" value="2,0" />
+        <observation name="16" value="1,0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="19-08-2024">
+        <observation name="total" value="3,0" />
+        <observation name="withMnemonics" value="0,0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="19-08-2024">
+        <observation name="48" value="3,0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixMatchingType" />
+    <factor id="templatesUsage">
+      <dailyData date="19-08-2024">
+        <observation name="totalStartingWithPrefix" value="3,0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="13-02-2023">
+        <observation name="average" value="188,0" />
+        <observation name="count" value="18,0" />
+      </dailyData>
+    </factor>
+  </component>
+</project>

@@ -1,6 +1,7 @@
 use Value::I32;
 use anyhow::{Result, bail};
 use clap::Parser;
+use ir::{Block, Br, BrIf, BrTable, IfElse, Loop, Visitor};
 use std::{mem::size_of_val, path::PathBuf};
 use walrus::{
     ConstExpr, DataKind, FunctionId, InstrLocId, MemoryId, Module, ValType, ir,
@@ -27,78 +28,14 @@ fn main() -> Result<()> {
     let args = Args::parse();
     let mut module = Module::from_file(&args.input)?;
     insert_data(&mut module)?;
-    let debug_message = debug_message(&mut module);
+    
     let mut index = 0;
 
-    // For each function of the blob
-    for (_, func) in module.funcs.iter_local_mut() {
-        let builder = func.block_mut(func.entry_block());
-        let mut new_instrs = Vec::new();
+    instrument(module, &mut index);
 
-        // For each instruction, if CFG instruction, call `debug_message`
-        for instr in builder.instrs.iter() {
-            new_instrs.extend(insert_message(debug_message, &mut index, &instr));
-            new_instrs.push(instr.clone());
-        }
-        builder.instrs = new_instrs;
-    }
-
-    module.emit_wasm_file(&args.output)?;
+    // module.emit_wasm_file(&args.output)?;
     println!("Instrumentation complete, written to {:?}", args.output);
     Ok(())
-}
-
-fn insert_message(
-    debug_message: FunctionId,
-    index: &mut i32,
-    instr: &(Instr, InstrLocId),
-) -> Vec<(Instr, InstrLocId)> {
-    let mut new_instrs: Vec<(Instr, InstrLocId)> = Vec::new();
-    if is_edge(&instr.0) {
-        println!("Found {:?}, adding callback with index {index}", instr.0);
-
-        new_instrs.push((
-            Instr::Const(Const {
-                // pointer to the text buffer
-                value: I32(OFFSET_DATA + *index * SIZE_OF_FEEDBACK),
-            }),
-            InstrLocId::default(),
-        ));
-        new_instrs.push((
-            Instr::Const(Const {
-                // the size of the buffer
-                value: I32(SIZE_OF_FEEDBACK),
-            }),
-            InstrLocId::default(),
-        ));
-        new_instrs.push((
-            Instr::Call(Call {
-                func: debug_message,
-            }),
-            InstrLocId::default(),
-        ));
-        new_instrs.push((Instr::Drop(ir::Drop {}), InstrLocId::default()));
-        *index += 1;
-    }
-    new_instrs
-}
-
-/// Returns true if the given instruction represents a control–flow edge
-fn is_edge(instr: &Instr) -> bool {
-    matches!(
-        instr,
-        Instr::Br(_) | Instr::BrIf(_) | Instr::BrTable(_) | Instr::IfElse(_) | Instr::Loop(_)
-    )
-}
-
-/// Loads the `debug_message` function
-fn debug_message(module: &mut Module) -> FunctionId {
-    let debug_message_type = module
-        .types
-        .add(&[ValType::I32, ValType::I32], &[ValType::I32]);
-
-    let (debug_message, _) = module.add_import_func("seal0", "debug_message", debug_message_type);
-    debug_message
 }
 
 /// Insert our string into the data section of the bob
@@ -116,4 +53,106 @@ fn insert_data(module: &mut Module) -> Result<()> {
         cov_data.into_bytes(),
     );
     Ok(())
+}
+
+pub fn instrument(mut module: Module, index: &mut i32) {
+    let mut new_instructions = Vec::new();
+    let mut blocks = Vec::new();
+    let debug_message_type = module
+        .types
+        .add(&[ValType::I32, ValType::I32], &[ValType::I32]);
+
+    let (debug_message, _) = module.add_import_func("seal0", "debug_message", debug_message_type);
+    for (_, function) in module.funcs.iter_local_mut() {
+        blocks.clear();
+        blocks.push(function.entry_block());
+
+        let mut visitor = AllBlocks {
+            blocks: &mut blocks,
+        };
+
+        walrus::ir::dfs_in_order(&mut visitor, function, function.entry_block());
+
+        for block in &mut blocks {
+            let instructions = &mut function.block_mut(*block).instrs;
+            new_instructions.clear();
+            new_instructions.reserve(instructions.len());
+
+            for instruction in instructions.iter_mut() {
+                match &instruction.0 {
+                    Instr::Br(_)
+                    | Instr::BrIf(_)
+                    | Instr::BrTable(_)
+                    | Instr::IfElse(_)
+                    | Instr::Loop(_) => {
+                        new_instructions.extend_from_slice(&[
+                            ((
+                                Instr::Const(Const {
+                                    // pointer to the text buffer
+                                    value: I32(OFFSET_DATA + *index * SIZE_OF_FEEDBACK),
+                                }),
+                                InstrLocId::default(),
+                            )),
+                            ((
+                                Instr::Const(Const {
+                                    // the size of the buffer
+                                    value: I32(SIZE_OF_FEEDBACK),
+                                }),
+                                InstrLocId::default(),
+                            )),
+                            ((
+                                Instr::Call(Call {
+                                    func: debug_message,
+                                }),
+                                InstrLocId::default(),
+                            )),
+                            ((Instr::Drop(ir::Drop {}), InstrLocId::default())),
+                            instruction.clone(),
+                        ]);
+
+                        println!("Instrumented {:?}", instruction)
+                    }
+
+                    _ => {
+                        new_instructions.push(instruction.clone());
+                    }
+                }
+            }
+            std::mem::swap(&mut new_instructions, instructions);
+        }
+    }
+
+    module.emit_wasm_file("toz.wasm").expect("unwrap");
+}
+
+struct AllBlocks<'a> {
+    blocks: &'a mut Vec<walrus::ir::InstrSeqId>,
+}
+
+impl<'instr> Visitor<'instr> for AllBlocks<'instr> {
+    fn visit_block(&mut self, instr: &Block) {
+        self.blocks.push(instr.seq);
+    }
+
+    fn visit_loop(&mut self, instr: &Loop) {
+        self.blocks.push(instr.seq);
+    }
+
+    fn visit_br(&mut self, instr: &Br) {
+        self.blocks.push(instr.block);
+    }
+
+    fn visit_br_if(&mut self, instr: &BrIf) {
+        self.blocks.push(instr.block);
+    }
+
+    fn visit_if_else(&mut self, instr: &IfElse) {
+        //todo!
+        self.blocks.push(instr.consequent);
+    }
+
+    fn visit_br_table(&mut self, instr: &BrTable) {
+        //todo!
+        self.blocks.push(instr.default);
+    }
 }
