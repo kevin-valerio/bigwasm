@@ -11,7 +11,7 @@ use walrus::{
     ir::{Instr, Value},
 };
 
-const SIZE_OF_FEEDBACK: i32 = size_of_val("COV=999 ") as i32;
+const SIZE_OF_FEEDBACK: i32 = size_of_val("COV=9999 ") as i32;
 const OFFSET_DATA: i32 = 100000;
 
 #[derive(Parser)]
@@ -46,14 +46,14 @@ impl<'instr> Visitor<'instr> for Blocks<'instr> {
 
 fn main() -> Result<()> {
     let args = Args::parse();
-    let mut index = 0;
     let mut module = Module::from_file(&args.input)?;
 
     insert_data(&mut module)?;
-    instrument(module, &mut index, &args.output)?;
+    instrument(module, &args.output)?;
 
     println!("Instrumentation complete, written to {:?}", &args.output);
-    println!("Map size: {:?}", index);
+    println!("SIZE_OF_FEEDBACK {}", SIZE_OF_FEEDBACK);
+    println!("OFFSET_DATA {}", OFFSET_DATA);
     Ok(())
 }
 
@@ -83,14 +83,15 @@ fn debug_message(module: &mut Module) -> FunctionId {
     debug_message
 }
 
-
-pub fn instrument(mut module: Module, index: &mut i32, output: &PathBuf) -> Result<()> {
+pub fn instrument(mut module: Module, output: &PathBuf) -> Result<()> {
     let mut new_instructions = Vec::new();
     let mut blocks = Vec::new();
+    let mut index = 0;
 
     let debug_message = debug_message(&mut module);
 
     for (_, function) in module.funcs.iter_local_mut() {
+        // Mutable borrow starts here
         blocks.clear();
         blocks.push(function.entry_block());
 
@@ -105,15 +106,26 @@ pub fn instrument(mut module: Module, index: &mut i32, output: &PathBuf) -> Resu
             new_instructions.reserve(instructions.len());
 
             for instruction in instructions.iter_mut() {
+                index += 1;
+                //todo instrument else
                 match &instruction.0 {
                     Instr::Br(_)
                     | Instr::BrIf(_)
                     | Instr::BrTable(_)
                     | Instr::IfElse(_)
+                    | Instr::Call(_)
+                    | Instr::Unreachable(_)
                     | Instr::Loop(_) => {
-                        *index += 1;
+                        new_instructions.extend_from_slice(&[instruction.clone()]);
+
                         new_instructions
                             .extend_from_slice(insert_callback(index, &debug_message).as_ref());
+                        println!("Instrumented {:?}", instruction)
+                    }
+                    Instr::CallIndirect(_) => {
+                        new_instructions
+                            .extend_from_slice(insert_callback(index, &debug_message).as_ref());
+
                         new_instructions.extend_from_slice(&[instruction.clone()]);
                         println!("Instrumented {:?}", instruction)
                     }
@@ -125,12 +137,13 @@ pub fn instrument(mut module: Module, index: &mut i32, output: &PathBuf) -> Resu
             std::mem::swap(&mut new_instructions, instructions);
         }
     }
+    println!("Map size: {:?}", index);
 
     Ok(module.emit_wasm_file(output)?)
 }
 
-fn insert_callback(index: &mut i32, debug_message: &FunctionId) -> Vec<(Instr, InstrLocId)> {
-    let offset = OFFSET_DATA + *index * SIZE_OF_FEEDBACK;
+fn insert_callback(index: i32, debug_message: &FunctionId) -> Vec<(Instr, InstrLocId)> {
+    let offset = OFFSET_DATA + index * SIZE_OF_FEEDBACK;
     println!("COV's offset: {}", offset);
     vec![
         (

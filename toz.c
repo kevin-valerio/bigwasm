@@ -702,56 +702,56 @@ DEFINE_TABLE_FILL(externref)
 static void w2c_output_call_0(w2c_output*);
 static u32 w2c_output_f8(w2c_output*, u32, u32, u32);
 static void w2c_output_f9(w2c_output*, u32);
-static u32 w2c_output_f10(w2c_output*, u32, u32);
-static u32 w2c_output_f11(w2c_output*, u32, u32, u32, u32, u32);
+static u32 w2c_output_f10(w2c_output*, u32, u32, u32, u32, u32);
+static u32 w2c_output_f11(w2c_output*, u32, u32);
 static u32 w2c_output_f12(w2c_output*, u32, u32);
 static u32 w2c_output_f13(w2c_output*, u32, u32);
 static u32 w2c_output_f14(w2c_output*, u32, u32);
 static u32 w2c_output_f15(w2c_output*, u32, u32);
 static u32 w2c_output_f16(w2c_output*, u32, u32);
 static void w2c_output_f17(w2c_output*, u32, u32);
-static u32 w2c_output_f18(w2c_output*, u32, u32, u32);
-static u32 w2c_output_f19(w2c_output*, u32, u32);
+static u32 w2c_output_f18(w2c_output*, u32, u32);
+static u32 w2c_output_f19(w2c_output*, u32, u32, u32);
 static void w2c_output_f20(w2c_output*, u32, u32, u32, u32);
 static u32 w2c_output_f21(w2c_output*, u32);
-static void w2c_output_f22(w2c_output*, u32, u32, u32);
-static void w2c_output_f23(w2c_output*, u32, u32, u32, u32);
-static u32 w2c_output_f24(w2c_output*, u32, u32, u32);
-static void w2c_output_f25(w2c_output*, u32, u32, u32);
-static void w2c_output_f26(w2c_output*, u32);
-static void w2c_output_f27(w2c_output*, u32, u32, u32);
 static void w2c_output_deploy_0(w2c_output*);
+static void w2c_output_f23(w2c_output*, u32, u32, u32);
+static void w2c_output_f24(w2c_output*, u32, u32, u32);
+static void w2c_output_f25(w2c_output*, u32);
+static u32 w2c_output_f26(w2c_output*, u32, u32, u32);
+static void w2c_output_f27(w2c_output*, u32, u32, u32, u32);
+static void w2c_output_f28(w2c_output*, u32, u32, u32);
 static void w2c_output_f29(w2c_output*, u32, u32, u32, u32, u32);
 static void w2c_output_f30(w2c_output*, u32, u32, u32);
-static u32 w2c_output_f31(w2c_output*, u32, u32);
-static void w2c_output_f32(w2c_output*, u32, u32, u32);
-static u32 w2c_output_f33(w2c_output*);
-static void w2c_output_f34(w2c_output*, u32, u32);
-static void w2c_output_f35(w2c_output*, u32, u32, u32);
-static void w2c_output_f36(w2c_output*, u32, u32, u32);
-static u32 w2c_output_f37(w2c_output*, u32, u32, u32);
-static void w2c_output_f38(w2c_output*, u32, u32);
-static void w2c_output_f39(w2c_output*);
-static u32 w2c_output_f40(w2c_output*, u32, u32, u32, u32, u32);
+static void w2c_output_f31(w2c_output*, u32, u32);
+static u32 w2c_output_f32(w2c_output*);
+static void w2c_output_f33(w2c_output*);
+static void w2c_output_f34(w2c_output*, u32, u32, u32);
+static u32 w2c_output_f35(w2c_output*, u32, u32);
+static void w2c_output_f36(w2c_output*, u32, u32);
+static void w2c_output_f37(w2c_output*, u32, u32, u32);
+static void w2c_output_f38(w2c_output*, u32, u32, u32);
+static u32 w2c_output_f39(w2c_output*, u32, u32, u32, u32, u32);
+static u32 w2c_output_f40(w2c_output*, u32, u32, u32);
 static u32 w2c_output_f41(w2c_output*, u32, u32, u32, u32);
-static void w2c_output_f42(w2c_output*, u32, u32, u32, u32);
-static u32 w2c_output_f43(w2c_output*, u32, u32);
+static void w2c_output_f42(w2c_output*, u32);
+static void w2c_output_f43(w2c_output*, u32, u32);
 static void w2c_output_f44(w2c_output*, u32);
-static void w2c_output_f45(w2c_output*, u32, u32);
-static void w2c_output_f46(w2c_output*, u32);
+static void w2c_output_f45(w2c_output*, u32, u32, u32, u32);
+static u32 w2c_output_f46(w2c_output*, u32, u32);
 static u32 w2c_output_f47(w2c_output*, u32, u32, u32);
-static u32 w2c_output_f48(w2c_output*, u32, u32, u32);
-static void w2c_output_f49(w2c_output*, u32, u32, u32, u32);
-static void w2c_output_f50(w2c_output*, u32, u32);
+static void w2c_output_f48(w2c_output*, u32, u32, u32, u32);
+static void w2c_output_f49(w2c_output*, u32, u32);
+static u32 w2c_output_f50(w2c_output*, u32, u32, u32);
 static void w2c_output_f51(w2c_output*, u32, u32);
-static u32 w2c_output_f52(w2c_output*, u32, u32);
+static void w2c_output_f52(w2c_output*, u32, u32);
 static u32 w2c_output_f53(w2c_output*, u32, u32);
 static u32 w2c_output_f54(w2c_output*, u32, u32);
-static void w2c_output_f55(w2c_output*, u32, u32);
+static u32 w2c_output_f55(w2c_output*, u32, u32);
 static u32 w2c_output_f56(w2c_output*, u32, u32, u32);
-static void w2c_output_f57(w2c_output*);
-static u32 w2c_output_f58(w2c_output*, u32, u32);
-static u32 w2c_output_f59(w2c_output*, u32, u32, u32);
+static u32 w2c_output_f57(w2c_output*, u32, u32);
+static u32 w2c_output_f58(w2c_output*, u32, u32, u32);
+static void w2c_output_f59(w2c_output*);
 static void w2c_output_f60(w2c_output*, u32);
 
 FUNC_TYPE_T(w2c_output_t0) = "\x36\xa9\xe7\xf1\xc9\x5b\x82\xff\xb9\x97\x43\xe0\xc5\xc4\xce\x95\xd8\x3c\x9a\x43\x0a\xac\x59\xf8\x4e\xf3\xcb\xfa\xb6\x14\x50\x68";
@@ -1724,18 +1724,18 @@ static void init_data_instances(w2c_output *instance) {
 }
 
 static const wasm_elem_segment_expr_t elem_segment_exprs_w2c_output_e0[] = {
-  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f53, {NULL}, 0},
-  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f10, {NULL}, 0},
   {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f54, {NULL}, 0},
-  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f31, {NULL}, 0},
+  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f11, {NULL}, 0},
+  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f55, {NULL}, 0},
+  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f35, {NULL}, 0},
   {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f13, {NULL}, 0},
-  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f19, {NULL}, 0},
+  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f18, {NULL}, 0},
   {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f15, {NULL}, 0},
-  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f52, {NULL}, 0},
+  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f53, {NULL}, 0},
   {RefFunc, w2c_output_t2, (wasm_rt_function_ptr_t)w2c_output_f60, {NULL}, 0},
   {RefFunc, w2c_output_t7, (wasm_rt_function_ptr_t)w2c_output_f56, {NULL}, 0},
   {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f14, {NULL}, 0},
-  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f58, {NULL}, 0},
+  {RefFunc, w2c_output_t5, (wasm_rt_function_ptr_t)w2c_output_f57, {NULL}, 0},
 };
 
 static void init_tables(w2c_output* instance) {
@@ -1793,7 +1793,7 @@ void wasm2c_output_instantiate(w2c_output* instance, struct w2c_env* w2c_env_ins
 #endif
   init_elem_instances(instance);
   init_data_instances(instance);
-  w2c_output_f57(instance);
+  w2c_output_f59(instance);
 #if WASM_RT_USE_SEGUE
   WASM_RT_SEGUE_WRITE_BASE(segue_saved_base);
 #endif
@@ -1928,14 +1928,14 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i0 -= var_i1;
   var_l1 = var_i0;
   instance->w2c_g0 = var_i0;
-  var_i0 = w2c_output_f33(instance);
+  var_i0 = w2c_output_f32(instance);
+  var_i1 = 111592u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = 255u;
   var_i0 &= var_i1;
   var_i1 = 5u;
   var_i0 = var_i0 == var_i1;
-  var_i1 = 100600u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l1;
     var_i1 = 16384u;
@@ -1945,6 +1945,9 @@ void w2c_output_call_0(w2c_output* instance) {
     var_i2 = 60u;
     var_i1 += var_i2;
     w2c_seal0_input(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = 111760u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l1;
     var_i1 = 32u;
     var_i0 += var_i1;
@@ -1952,7 +1955,10 @@ void w2c_output_call_0(w2c_output* instance) {
     var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 60u);
     var_i2 = 68694u;
     var_i3 = 16384u;
-    w2c_output_f49(instance, var_i0, var_i1, var_i2, var_i3);
+    w2c_output_f48(instance, var_i0, var_i1, var_i2, var_i3);
+    var_i0 = 111824u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l1;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 32u);
     var_l2 = var_i0;
@@ -1967,10 +1973,10 @@ void w2c_output_call_0(w2c_output* instance) {
     var_i0 = var_l3;
     var_i1 = 4u;
     var_i0 = var_i0 < var_i1;
-    var_i1 = 100608u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B1;}
+    var_i0 = 111944u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l1;
     var_i1 = var_l3;
     var_i2 = 4u;
@@ -1997,9 +2003,6 @@ void w2c_output_call_0(w2c_output* instance) {
     var_l0 = var_i0;
     var_i1 = 39u;
     var_i0 = var_i0 != var_i1;
-    var_i1 = 100688u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = var_l7;
       var_i0 = !(var_i0);
@@ -2023,10 +2026,10 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i2 |= var_i3;
       var_i1 |= var_i2;
       var_i0 |= var_i1;
-      var_i1 = 100712u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 113168u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l1;
       var_i1 = var_l3;
       var_i2 = 5u;
@@ -2045,9 +2048,6 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i0 &= var_i1;
       var_i1 = 1u;
       var_i0 -= var_i1;
-      var_i1 = 100720u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       switch (var_i0) {
         case 0: goto var_B7;
         case 1: goto var_B6;
@@ -2055,6 +2055,9 @@ void w2c_output_call_0(w2c_output* instance) {
         default: goto var_B8;
       }
     }
+    var_i0 = 112832u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l4;
     var_i1 = 55u;
     var_i0 = var_i0 != var_i1;
@@ -2070,24 +2073,18 @@ void w2c_output_call_0(w2c_output* instance) {
     var_i2 = 241u;
     var_i1 = var_i1 != var_i2;
     var_i0 |= var_i1;
-    var_i1 = 100696u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B1;}
-    var_i0 = 2147483648u;
-    var_l6 = var_i0;
-    var_i0 = 100704u;
+    var_i0 = 112960u;
     var_i1 = 8u;
     var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = 2147483648u;
+    var_l6 = var_i0;
     goto var_B0;
     var_B8:;
     var_i0 = var_l0;
     var_i1 = 2u;
     var_i0 >>= (var_i1 & 31);
     var_l2 = var_i0;
-    var_i0 = 100680u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B2;
     var_B7:;
     var_i0 = var_l1;
@@ -2111,29 +2108,29 @@ void w2c_output_call_0(w2c_output* instance) {
     var_i2 = 84u;
     var_i1 += var_i2;
     var_i2 = 2u;
-    var_i0 = w2c_output_f18(instance, var_i0, var_i1, var_i2);
-    var_i1 = 100656u;
+    var_i0 = w2c_output_f19(instance, var_i0, var_i1, var_i2);
+    var_i1 = 112616u;
     var_i2 = 8u;
     var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B1;}
+    var_i0 = 112624u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l1;
     var_i0 = i32_load16_u(instance->w2c_env_memory, (u64)(var_i0) + 84u);
     var_l0 = var_i0;
     var_i1 = 256u;
     var_i0 = var_i0 < var_i1;
-    var_i1 = 100664u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B1;}
+    var_i0 = 112672u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l0;
     var_i1 = 65532u;
     var_i0 &= var_i1;
     var_i1 = 2u;
     var_i0 >>= (var_i1 & 31);
     var_l2 = var_i0;
-    var_i0 = 100672u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B2;
     var_B6:;
     var_i0 = var_l1;
@@ -2157,57 +2154,60 @@ void w2c_output_call_0(w2c_output* instance) {
     var_i2 = 84u;
     var_i1 += var_i2;
     var_i2 = 4u;
-    var_i0 = w2c_output_f18(instance, var_i0, var_i1, var_i2);
-    var_i1 = 100632u;
+    var_i0 = w2c_output_f19(instance, var_i0, var_i1, var_i2);
+    var_i1 = 112336u;
     var_i2 = 8u;
     var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B1;}
+    var_i0 = 112344u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l1;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 84u);
     var_l0 = var_i0;
     var_i1 = 65536u;
     var_i0 = var_i0 < var_i1;
-    var_i1 = 100640u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B1;}
+    var_i0 = 112392u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l0;
     var_i1 = 2u;
     var_i0 >>= (var_i1 & 31);
     var_l2 = var_i0;
-    var_i0 = 100648u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B2;
     var_B5:;
     var_i0 = var_l0;
     var_i1 = 4u;
     var_i0 = var_i0 < var_i1;
-    var_i1 = 100616u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B3;}
-    var_i0 = 100624u;
+    var_i0 = 112144u;
     var_i1 = 8u;
     var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B1;
   }
+  var_i0 = 111632u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l1;
   var_i1 = 4u;
   i32_store8(instance->w2c_env_memory, (u64)(var_i0) + 60, var_i1);
   var_i0 = var_l1;
   var_i1 = 60u;
   var_i0 += var_i1;
-  w2c_output_f46(instance, var_i0);
+  w2c_output_f44(instance, var_i0);
+  var_i0 = 111688u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_B3:;
   var_i0 = var_l5;
   var_i1 = 4u;
   var_i0 = var_i0 < var_i1;
-  var_i1 = 100584u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B1;}
+  var_i0 = 111456u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l1;
   var_i1 = var_l3;
   var_i2 = 9u;
@@ -2223,19 +2223,19 @@ void w2c_output_call_0(w2c_output* instance) {
   var_l2 = var_i0;
   var_i1 = 1073741824u;
   var_i0 = var_i0 < var_i1;
-  var_i1 = 100592u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B1;}
+  var_i0 = 111584u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_B2:;
   var_i0 = var_l1;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 56u);
   var_i1 = var_l2;
   var_i0 = var_i0 < var_i1;
-  var_i1 = 100568u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B1;}
+  var_i0 = 111304u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l1;
   var_i1 = 4294967232u;
   var_i0 -= var_i1;
@@ -2248,14 +2248,8 @@ void w2c_output_call_0(w2c_output* instance) {
   var_l3 = var_i0;
   var_i0 = 1u;
   var_l5 = var_i0;
-  var_i0 = 100576u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_L10: 
     var_i0 = var_l2;
-    var_i1 = 100752u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = 16384u;
       var_i1 = var_l2;
@@ -2268,19 +2262,16 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i2 = var_l3;
       var_i1 -= var_i2;
       var_i0 = var_i0 <= var_i1;
-      var_i1 = 100776u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {
         var_i0 = var_l3;
         var_i1 = var_l8;
         var_i0 += var_i1;
         var_l0 = var_i0;
-        var_i0 = 100792u;
-        var_i1 = 8u;
-        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         goto var_B11;
       }
+      var_i0 = 113952u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = 0u;
       var_l4 = var_i0;
       var_i0 = var_l3;
@@ -2294,14 +2285,8 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i1 = (u32)((s32)var_i1 < (s32)var_i2);
       var_i0 |= var_i1;
       var_i0 = !(var_i0);
-      var_i1 = 100784u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {
         var_i0 = var_l6;
-        var_i1 = 100800u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {
           var_i0 = var_l1;
           var_i1 = 1u;
@@ -2313,6 +2298,9 @@ void w2c_output_call_0(w2c_output* instance) {
         } else {
           var_i0 = var_l9;
         }
+        var_i1 = 114160u;
+        var_i2 = 8u;
+        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         var_i1 = var_l6;
         i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
         var_i0 = var_l1;
@@ -2322,7 +2310,10 @@ void w2c_output_call_0(w2c_output* instance) {
         var_i2 = var_l1;
         var_i3 = 60u;
         var_i2 += var_i3;
-        w2c_output_f22(instance, var_i0, var_i1, var_i2);
+        w2c_output_f23(instance, var_i0, var_i1, var_i2);
+        var_i0 = 114240u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_i0 = var_l1;
         var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 88u);
         var_l4 = var_i0;
@@ -2330,43 +2321,49 @@ void w2c_output_call_0(w2c_output* instance) {
         var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 84u);
         var_i1 = 1u;
         var_i0 = var_i0 != var_i1;
-        var_i1 = 100808u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {
           var_i0 = var_l4;
           var_l5 = var_i0;
           var_i0 = var_l0;
           var_l6 = var_i0;
-          var_i0 = 100824u;
-          var_i1 = 8u;
-          var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
           goto var_B11;
         }
+        var_i0 = 114304u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_i0 = var_l4;
         var_i1 = 2147483649u;
         var_i0 = var_i0 == var_i1;
-        var_i1 = 100816u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {goto var_B11;}
+        var_i0 = 114336u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_i0 = var_l1;
         var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 92u);
         var_l7 = var_i0;
       }
+      var_i0 = 114064u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l4;
       var_i1 = var_l7;
       var_i2 = 65792u;
-      w2c_output_f25(instance, var_i0, var_i1, var_i2);
+      w2c_output_f24(instance, var_i0, var_i1, var_i2);
+      var_i0 = 114096u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       UNREACHABLE;
     }
+    var_i0 = 113648u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l6;
     var_i1 = 2147483648u;
     var_i0 = var_i0 == var_i1;
-    var_i1 = 100760u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B1;}
+    var_i0 = 113680u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l3;
     var_i1 = 7u;
     var_i0 -= var_i1;
@@ -2387,16 +2384,10 @@ void w2c_output_call_0(w2c_output* instance) {
     var_l9 = var_i0;
     var_i0 = 0u;
     var_l2 = var_i0;
-    var_i0 = 100768u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_L17: 
       var_i0 = var_l2;
       var_i1 = var_l3;
       var_i0 = var_i0 < var_i1;
-      var_i1 = 100944u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {
         var_i0 = var_l2;
         var_i1 = var_l5;
@@ -2410,9 +2401,6 @@ void w2c_output_call_0(w2c_output* instance) {
         var_l7 = var_i0;
         var_i1 = 0u;
         var_i0 = (u32)((s32)var_i0 < (s32)var_i1);
-        var_i1 = 100968u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {
           var_i0 = var_l0;
           var_i1 = 67778u;
@@ -2420,9 +2408,6 @@ void w2c_output_call_0(w2c_output* instance) {
           var_i0 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i0));
           var_i1 = 2u;
           var_i0 -= var_i1;
-          var_i1 = 100992u;
-          var_i2 = 8u;
-          var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
           switch (var_i0) {
             case 0: goto var_B20;
             case 1: goto var_B21;
@@ -2430,25 +2415,22 @@ void w2c_output_call_0(w2c_output* instance) {
             default: goto var_B1;
           }
         }
+        var_i0 = 115456u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_i0 = var_l9;
         var_i1 = var_l2;
         var_i0 -= var_i1;
         var_i1 = 3u;
         var_i0 &= var_i1;
-        var_i1 = 100976u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {goto var_B18;}
-        var_i0 = 100984u;
+        var_i0 = 115504u;
         var_i1 = 8u;
         var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_L25: 
           var_i0 = var_l2;
           var_i1 = var_l8;
           var_i0 = var_i0 < var_i1;
-          var_i1 = 101008u;
-          var_i2 = 8u;
-          var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
           if (var_i0) {
             var_i0 = var_l2;
             var_i1 = var_l5;
@@ -2463,11 +2445,14 @@ void w2c_output_call_0(w2c_output* instance) {
             var_i1 = 2155905152u;
             var_i0 &= var_i1;
             var_i0 = !(var_i0);
-            var_i1 = 101024u;
-            var_i2 = 8u;
-            var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
             if (var_i0) {goto var_B26;}
+            var_i0 = 115840u;
+            var_i1 = 8u;
+            var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
           }
+          var_i0 = 115656u;
+          var_i1 = 8u;
+          var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
           var_i0 = var_l3;
           var_i1 = var_l2;
           var_i2 = var_l2;
@@ -2475,68 +2460,62 @@ void w2c_output_call_0(w2c_output* instance) {
           var_i2 = var_i2 < var_i3;
           var_i0 = var_i2 ? var_i0 : var_i1;
           var_l0 = var_i0;
-          var_i0 = 101016u;
-          var_i1 = 8u;
-          var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
           var_L28: 
             var_i0 = var_l2;
             var_i1 = var_l3;
             var_i0 = var_i0 >= var_i1;
-            var_i1 = 101032u;
-            var_i2 = 8u;
-            var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
             if (var_i0) {
               var_i0 = var_l0;
               var_l2 = var_i0;
-              var_i0 = 101056u;
-              var_i1 = 8u;
-              var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
               goto var_L17;
             }
+            var_i0 = 115872u;
+            var_i1 = 8u;
+            var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
             var_i0 = var_l2;
             var_i1 = var_l5;
             var_i0 += var_i1;
             var_i0 = i32_load8_s(instance->w2c_env_memory, (u64)(var_i0));
             var_i1 = 0u;
             var_i0 = (u32)((s32)var_i0 < (s32)var_i1);
-            var_i1 = 101040u;
-            var_i2 = 8u;
-            var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
             if (var_i0) {goto var_L17;}
+            var_i0 = 115928u;
+            var_i1 = 8u;
+            var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
             var_i0 = var_l2;
             var_i1 = 1u;
             var_i0 += var_i1;
             var_l2 = var_i0;
-            var_i0 = 101048u;
-            var_i1 = 8u;
-            var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
             goto var_L28;
+          var_i0 = 115720u;
+          var_i1 = 8u;
+          var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
           UNREACHABLE;
           var_B26:;
           var_i0 = var_l2;
           var_i1 = 8u;
           var_i0 += var_i1;
           var_l2 = var_i0;
-          var_i0 = 101000u;
-          var_i1 = 8u;
-          var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
           goto var_L25;
+        var_i0 = 115512u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         UNREACHABLE;
       }
+      var_i0 = 115280u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l6;
       var_i1 = 2147483649u;
       var_i0 = var_i0 == var_i1;
-      var_i1 = 100952u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 115312u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l5;
       var_i1 = 8u;
       var_i0 >>= (var_i1 & 31);
       var_l2 = var_i0;
-      var_i0 = 100960u;
-      var_i1 = 8u;
-      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_B0;
       var_B22:;
       var_i0 = var_l2;
@@ -2545,10 +2524,10 @@ void w2c_output_call_0(w2c_output* instance) {
       var_l4 = var_i0;
       var_i1 = var_l3;
       var_i0 = var_i0 >= var_i1;
-      var_i1 = 100896u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 114968u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l4;
       var_i1 = var_l5;
       var_i0 += var_i1;
@@ -2557,9 +2536,6 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i0 = var_l0;
       var_i1 = 240u;
       var_i0 -= var_i1;
-      var_i1 = 101112u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       switch (var_i0) {
         case 0: goto var_B32;
         case 1: goto var_B33;
@@ -2576,18 +2552,15 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i0 &= var_i1;
       var_i1 = 2u;
       var_i0 = var_i0 > var_i1;
-      var_i1 = 101088u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 116184u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l4;
       var_i1 = 4294967232u;
       var_i0 = (u32)((s32)var_i0 < (s32)var_i1);
-      var_i1 = 101096u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B30;}
-      var_i0 = 101104u;
+      var_i0 = 116216u;
       var_i1 = 8u;
       var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_B1;
@@ -2599,11 +2572,8 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i0 &= var_i1;
       var_i1 = 48u;
       var_i0 = var_i0 < var_i1;
-      var_i1 = 101072u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B30;}
-      var_i0 = 101080u;
+      var_i0 = 116104u;
       var_i1 = 8u;
       var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_B1;
@@ -2611,10 +2581,10 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i0 = var_l4;
       var_i1 = 4294967183u;
       var_i0 = (u32)((s32)var_i0 > (s32)var_i1);
-      var_i1 = 101064u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 116032u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_B30:;
       var_i0 = var_l2;
       var_i1 = 2u;
@@ -2622,41 +2592,38 @@ void w2c_output_call_0(w2c_output* instance) {
       var_l0 = var_i0;
       var_i1 = var_l3;
       var_i0 = var_i0 >= var_i1;
-      var_i1 = 100904u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 115072u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l0;
       var_i1 = var_l5;
       var_i0 += var_i1;
       var_i0 = i32_load8_s(instance->w2c_env_memory, (u64)(var_i0));
       var_i1 = 4294967231u;
       var_i0 = (u32)((s32)var_i0 > (s32)var_i1);
-      var_i1 = 100912u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 115128u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l2;
       var_i1 = 3u;
       var_i0 += var_i1;
       var_l2 = var_i0;
       var_i1 = var_l3;
       var_i0 = var_i0 >= var_i1;
-      var_i1 = 100920u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 115184u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l2;
       var_i1 = var_l5;
       var_i0 += var_i1;
       var_i0 = i32_load8_s(instance->w2c_env_memory, (u64)(var_i0));
       var_i1 = 4294967231u;
       var_i0 = (u32)((s32)var_i0 <= (s32)var_i1);
-      var_i1 = 100928u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B19;}
-      var_i0 = 100936u;
+      var_i0 = 115240u;
       var_i1 = 8u;
       var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_B1;
@@ -2667,10 +2634,10 @@ void w2c_output_call_0(w2c_output* instance) {
       var_l4 = var_i0;
       var_i1 = var_l3;
       var_i0 = var_i0 >= var_i1;
-      var_i1 = 100864u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 114736u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l4;
       var_i1 = var_l5;
       var_i0 += var_i1;
@@ -2679,17 +2646,14 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i0 = var_l0;
       var_i1 = 224u;
       var_i0 = var_i0 != var_i1;
-      var_i1 = 101144u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {
         var_i0 = var_l0;
         var_i1 = 237u;
         var_i0 = var_i0 == var_i1;
-        var_i1 = 101168u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {goto var_B36;}
+        var_i0 = 116464u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_i0 = var_l7;
         var_i1 = 31u;
         var_i0 += var_i1;
@@ -2697,41 +2661,38 @@ void w2c_output_call_0(w2c_output* instance) {
         var_i0 &= var_i1;
         var_i1 = 12u;
         var_i0 = var_i0 < var_i1;
-        var_i1 = 101176u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {goto var_B35;}
+        var_i0 = 116528u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_i0 = var_l7;
         var_i1 = 4294967294u;
         var_i0 &= var_i1;
         var_i1 = 4294967278u;
         var_i0 = var_i0 != var_i1;
-        var_i1 = 101184u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {goto var_B1;}
+        var_i0 = 116576u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_i0 = var_l4;
         var_i1 = 4294967232u;
         var_i0 = (u32)((s32)var_i0 < (s32)var_i1);
-        var_i1 = 101192u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {goto var_B34;}
-        var_i0 = 101200u;
+        var_i0 = 116608u;
         var_i1 = 8u;
         var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         goto var_B1;
       }
+      var_i0 = 116376u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l4;
       var_i1 = 4294967264u;
       var_i0 &= var_i1;
       var_i1 = 4294967200u;
       var_i0 = var_i0 == var_i1;
-      var_i1 = 101152u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B34;}
-      var_i0 = 101160u;
+      var_i0 = 116424u;
       var_i1 = 8u;
       var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_B1;
@@ -2739,11 +2700,8 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i0 = var_l4;
       var_i1 = 4294967199u;
       var_i0 = (u32)((s32)var_i0 > (s32)var_i1);
-      var_i1 = 101128u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
-      var_i0 = 101136u;
+      var_i0 = 116336u;
       var_i1 = 8u;
       var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_B34;
@@ -2751,10 +2709,10 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i0 = var_l4;
       var_i1 = 4294967232u;
       var_i0 = (u32)((s32)var_i0 >= (s32)var_i1);
-      var_i1 = 101120u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 116296u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_B34:;
       var_i0 = var_l2;
       var_i1 = 2u;
@@ -2762,21 +2720,18 @@ void w2c_output_call_0(w2c_output* instance) {
       var_l2 = var_i0;
       var_i1 = var_l3;
       var_i0 = var_i0 >= var_i1;
-      var_i1 = 100872u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 114840u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l2;
       var_i1 = var_l5;
       var_i0 += var_i1;
       var_i0 = i32_load8_s(instance->w2c_env_memory, (u64)(var_i0));
       var_i1 = 4294967231u;
       var_i0 = (u32)((s32)var_i0 <= (s32)var_i1);
-      var_i1 = 100880u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B19;}
-      var_i0 = 100888u;
+      var_i0 = 114896u;
       var_i1 = 8u;
       var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_B1;
@@ -2787,38 +2742,35 @@ void w2c_output_call_0(w2c_output* instance) {
       var_l2 = var_i0;
       var_i1 = var_l3;
       var_i0 = var_i0 >= var_i1;
-      var_i1 = 100848u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 114616u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l2;
       var_i1 = var_l5;
       var_i0 += var_i1;
       var_i0 = i32_load8_s(instance->w2c_env_memory, (u64)(var_i0));
       var_i1 = 4294967231u;
       var_i0 = (u32)((s32)var_i0 > (s32)var_i1);
-      var_i1 = 100856u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 114672u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_B19:;
       var_i0 = var_l2;
       var_i1 = 1u;
       var_i0 += var_i1;
       var_l2 = var_i0;
-      var_i0 = 100840u;
-      var_i1 = 8u;
-      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_L17;
       var_B18:;
       var_i0 = var_l2;
       var_i1 = 1u;
       var_i0 += var_i1;
       var_l2 = var_i0;
-      var_i0 = 100832u;
-      var_i1 = 8u;
-      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_L17;
+    var_i0 = 113848u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     UNREACHABLE;
     var_B11:;
     var_i0 = var_l1;
@@ -2829,6 +2781,9 @@ void w2c_output_call_0(w2c_output* instance) {
     var_i3 = var_l0;
     var_i4 = 65776u;
     w2c_output_f29(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+    var_i0 = 113392u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l1;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 56u);
     var_l7 = var_i0;
@@ -2836,17 +2791,14 @@ void w2c_output_call_0(w2c_output* instance) {
     var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 28u);
     var_l3 = var_i1;
     var_i0 = var_i0 < var_i1;
-    var_i1 = 100728u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B1;}
+    var_i0 = 113456u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l1;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 52u);
     var_l4 = var_i0;
     var_i0 = var_l3;
-    var_i1 = 100736u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = var_l1;
       var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 24u);
@@ -2854,6 +2806,9 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i2 = var_l3;
       memory_copy(instance->w2c_env_memory, instance->w2c_env_memory, var_i0, var_i1, var_i2);
     }
+    var_i0 = 113496u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l1;
     var_i1 = var_l7;
     var_i2 = var_l3;
@@ -2870,15 +2825,18 @@ void w2c_output_call_0(w2c_output* instance) {
     var_l2 = var_i0;
     var_i0 = var_l0;
     var_l3 = var_i0;
-    var_i0 = 100744u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_L10;
+  var_i0 = 111408u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_B1:;
   var_i0 = 1u;
   var_i1 = 1u;
-  w2c_output_f34(instance, var_i0, var_i1);
+  w2c_output_f31(instance, var_i0, var_i1);
+  var_i0 = 111248u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_B0:;
   var_i0 = var_l1;
@@ -2914,7 +2872,10 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i2 = 60u;
   var_i1 += var_i2;
   var_l2 = var_i1;
-  w2c_output_f38(instance, var_i0, var_i1);
+  w2c_output_f36(instance, var_i0, var_i1);
+  var_i0 = 110808u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l1;
   var_i1 = var_l1;
   var_j1 = i64_load(instance->w2c_env_memory, (u64)(var_i1) + 60u);
@@ -2927,7 +2888,10 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i1 += var_i2;
   var_i2 = var_l1;
   var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 68u);
-  w2c_output_f32(instance, var_i0, var_i1, var_i2);
+  w2c_output_f34(instance, var_i0, var_i1, var_i2);
+  var_i0 = 110912u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l1;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 20u);
   var_l3 = var_i0;
@@ -2947,6 +2911,9 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i2 = var_l0;
   var_i3 = var_l2;
   var_i0 = w2c_seal1_get_storage(instance->w2c_seal1_instance, var_i0, var_i1, var_i2, var_i3);
+  var_i1 = 111064u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_l2 = var_i0;
   var_i0 = var_l1;
   var_i1 = 8u;
@@ -2955,11 +2922,11 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 60u);
   var_i2 = var_l0;
   var_i3 = var_l4;
-  w2c_output_f49(instance, var_i0, var_i1, var_i2, var_i3);
+  w2c_output_f48(instance, var_i0, var_i1, var_i2, var_i3);
+  var_i0 = 111136u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l2;
-  var_i1 = 101240u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   switch (var_i0) {
     case 0: goto var_B42;
     case 1: goto var_B43;
@@ -2984,17 +2951,20 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i1 = 60u;
   var_i0 += var_i1;
   var_i1 = 66008u;
-  w2c_output_f50(instance, var_i0, var_i1);
+  w2c_output_f49(instance, var_i0, var_i1);
+  var_i0 = 117248u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_B42:;
   var_i0 = var_l1;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
   var_i1 = 4u;
   var_i0 = var_i0 == var_i1;
-  var_i1 = 101224u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B40;}
+  var_i0 = 117024u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l1;
   var_i1 = 0u;
   i32_store(instance->w2c_env_memory, (u64)(var_i0) + 76, var_i1);
@@ -3004,9 +2974,6 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i0 = var_l1;
   var_i1 = 66176u;
   i32_store(instance->w2c_env_memory, (u64)(var_i0) + 60, var_i1);
-  var_i0 = 101232u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   goto var_B39;
   var_B41:;
   var_i0 = var_l1;
@@ -3018,9 +2985,6 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i0 = var_l1;
   var_i1 = 66128u;
   i32_store(instance->w2c_env_memory, (u64)(var_i0) + 60, var_i1);
-  var_i0 = 101216u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   goto var_B39;
   var_B40:;
   var_i0 = var_l1;
@@ -3031,9 +2995,6 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i0 = var_l6;
   var_i1 = 2147483648u;
   var_i0 = var_i0 == var_i1;
-  var_i1 = 101208u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = instance->w2c_g0;
     var_i1 = 32u;
@@ -3050,9 +3011,6 @@ void w2c_output_call_0(w2c_output* instance) {
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
     var_i1 = 42u;
     var_i0 = var_i0 == var_i1;
-    var_i1 = 101248u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = var_l2;
       var_i1 = 0u;
@@ -3103,9 +3061,6 @@ void w2c_output_call_0(w2c_output* instance) {
       var_l2 = var_i0;
       var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
       var_i0 = !(var_i0);
-      var_i1 = 101256u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {
         var_i0 = var_l0;
         var_i1 = 3u;
@@ -3140,11 +3095,11 @@ void w2c_output_call_0(w2c_output* instance) {
         var_i2 = 8u;
         var_i1 += var_i2;
         i32_store(instance->w2c_env_memory, (u64)(var_i0) + 64, var_i1);
-        var_i0 = 101264u;
-        var_i1 = 8u;
-        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         goto var_B46;
       }
+      var_i0 = 117960u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l0;
       var_i1 = 48u;
       var_i0 += var_i1;
@@ -3216,18 +3171,30 @@ void w2c_output_call_0(w2c_output* instance) {
       var_i1 = 88u;
       var_i0 += var_i1;
       var_i1 = 66248u;
-      w2c_output_f50(instance, var_i0, var_i1);
+      w2c_output_f49(instance, var_i0, var_i1);
+      var_i0 = 117896u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       UNREACHABLE;
     }
+    var_i0 = 117400u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l2;
     var_i1 = 32u;
     var_i0 += var_i1;
     instance->w2c_g0 = var_i0;
     var_i0 = 0u;
     var_i1 = 0u;
-    w2c_output_f34(instance, var_i0, var_i1);
+    w2c_output_f31(instance, var_i0, var_i1);
+    var_i0 = 117456u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     UNREACHABLE;
   }
+  var_i0 = 116736u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l1;
   var_i1 = 60u;
   var_i0 += var_i1;
@@ -3247,10 +3214,10 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i0 -= var_i1;
   var_i1 = 2u;
   var_i0 = var_i0 > var_i1;
-  var_i1 = 101272u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B48;}
+  var_i0 = 118808u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l0;
   var_i1 = var_l2;
   var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
@@ -3267,24 +3234,30 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i0 += var_i1;
   var_i1 = 0u;
   var_i0 = w2c_output_f16(instance, var_i0, var_i1);
+  var_i1 = 118936u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_l6 = var_i0;
   var_i1 = 102u;
   var_i0 = var_i0 != var_i1;
-  var_i1 = 101280u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l6;
     var_i1 = 1114112u;
     var_i0 = var_i0 != var_i1;
-    var_i1 = 101312u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B48;}
+    var_i0 = 119384u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = 66184u;
-    w2c_output_f44(instance, var_i0);
+    w2c_output_f42(instance, var_i0);
+    var_i0 = 119400u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     UNREACHABLE;
   }
+  var_i0 = 118968u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l0;
   var_i1 = var_l3;
   i32_store(instance->w2c_env_memory, (u64)(var_i0) + 12, var_i1);
@@ -3296,24 +3269,30 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i0 += var_i1;
   var_i1 = 1u;
   var_i0 = w2c_output_f16(instance, var_i0, var_i1);
+  var_i1 = 119056u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_l6 = var_i0;
   var_i1 = 117u;
   var_i0 = var_i0 != var_i1;
-  var_i1 = 101288u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l6;
     var_i1 = 1114112u;
     var_i0 = var_i0 != var_i1;
-    var_i1 = 101320u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B48;}
+    var_i0 = 119440u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = 66200u;
-    w2c_output_f44(instance, var_i0);
+    w2c_output_f42(instance, var_i0);
+    var_i0 = 119456u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     UNREACHABLE;
   }
+  var_i0 = 119088u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l0;
   var_i1 = var_l3;
   i32_store(instance->w2c_env_memory, (u64)(var_i0) + 12, var_i1);
@@ -3325,24 +3304,30 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i0 += var_i1;
   var_i1 = 2u;
   var_i0 = w2c_output_f16(instance, var_i0, var_i1);
+  var_i1 = 119176u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_l6 = var_i0;
   var_i1 = 122u;
   var_i0 = var_i0 != var_i1;
-  var_i1 = 101296u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l6;
     var_i1 = 1114112u;
     var_i0 = var_i0 != var_i1;
-    var_i1 = 101328u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B48;}
+    var_i0 = 119496u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = 66216u;
-    w2c_output_f44(instance, var_i0);
+    w2c_output_f42(instance, var_i0);
+    var_i0 = 119512u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     UNREACHABLE;
   }
+  var_i0 = 119208u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l0;
   var_i1 = var_l3;
   i32_store(instance->w2c_env_memory, (u64)(var_i0) + 12, var_i1);
@@ -3354,24 +3339,30 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i0 += var_i1;
   var_i1 = 3u;
   var_i0 = w2c_output_f16(instance, var_i0, var_i1);
+  var_i1 = 119296u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_l2 = var_i0;
   var_i1 = 122u;
   var_i0 = var_i0 != var_i1;
-  var_i1 = 101304u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l2;
     var_i1 = 1114112u;
     var_i0 = var_i0 != var_i1;
-    var_i1 = 101336u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B48;}
+    var_i0 = 119552u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = 66232u;
-    w2c_output_f44(instance, var_i0);
+    w2c_output_f42(instance, var_i0);
+    var_i0 = 119568u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     UNREACHABLE;
   }
+  var_i0 = 119328u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l5;
   var_i1 = 42u;
   i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
@@ -3382,8 +3373,14 @@ void w2c_output_call_0(w2c_output* instance) {
   instance->w2c_g0 = var_i0;
   var_i0 = var_l1;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 60u);
-  w2c_output_f26(instance, var_i0);
-  w2c_output_f39(instance);
+  w2c_output_f25(instance, var_i0);
+  var_i0 = 116872u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  w2c_output_f33(instance);
+  var_i0 = 116880u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_B39:;
   var_i0 = var_l1;
@@ -3393,7 +3390,10 @@ void w2c_output_call_0(w2c_output* instance) {
   var_i1 = 60u;
   var_i0 += var_i1;
   var_i1 = 66088u;
-  w2c_output_f50(instance, var_i0, var_i1);
+  w2c_output_f49(instance, var_i0, var_i1);
+  var_i0 = 111208u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   FUNC_EPILOGUE;
 }
@@ -3401,7 +3401,7 @@ void w2c_output_call_0(w2c_output* instance) {
 u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   u32 var_l3 = 0, var_l4 = 0, var_l5 = 0, var_l6 = 0, var_l7 = 0, var_l8 = 0, var_l9 = 0;
   FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3, var_i4;
+  u32 var_i0, var_i1, var_i2, var_i3, var_i4, var_i5;
   u64 var_j1;
   var_i0 = instance->w2c_g0;
   var_i1 = 4294967232u;
@@ -3432,9 +3432,6 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 16u);
   var_p1 = var_i0;
   var_i0 = !(var_i0);
-  var_i1 = 101560u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p2;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
@@ -3455,17 +3452,14 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
     var_i0 = var_p2;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
     var_p1 = var_i0;
-    var_i0 = 101584u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_L4: 
       var_i0 = var_p0;
       var_i1 = var_l5;
       var_i0 = var_i0 == var_i1;
-      var_i1 = 101600u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B2;}
+      var_i0 = 124120u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_p0;
       var_i1 = var_l7;
       var_i0 += var_i1;
@@ -3474,9 +3468,6 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
       var_i0 += var_i1;
       var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
       var_l4 = var_i0;
-      var_i1 = 101608u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {
         var_i0 = var_l3;
         var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 56u);
@@ -3486,12 +3477,18 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
         var_i3 = var_l3;
         var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 60u);
         var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+        var_i4 = 124440u;
+        var_i5 = 8u;
+        var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
         var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-        var_i1 = 101624u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {goto var_B1;}
+        var_i0 = 124448u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       }
+      var_i0 = 124192u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_p0;
       var_i1 = 8u;
       var_i0 += var_i1;
@@ -3511,17 +3508,23 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
       var_i2 = 28u;
       var_i1 += var_i2;
       var_i2 = var_p2;
+      var_i3 = 124352u;
+      var_i4 = 8u;
+      var_i3 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i3, var_i4);
       var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32), w2c_output_t5, var_i2, instance->w2c_T0.data[var_i2].module_instance, var_i0, var_i1);
       var_i0 = !(var_i0);
-      var_i1 = 101616u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_L4;}
-    var_i0 = 101592u;
+      var_i0 = 124368u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = 124080u;
     var_i1 = 8u;
     var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B1;
   }
+  var_i0 = 123720u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p2;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 20u);
   var_p0 = var_i0;
@@ -3545,24 +3548,18 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
   var_l7 = var_i0;
   var_p0 = var_i0;
-  var_i0 = 101568u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_L6: 
     var_i0 = var_l5;
     var_i0 = !(var_i0);
-    var_i1 = 101632u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B2;}
+    var_i0 = 124472u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_p0;
     var_i1 = 4u;
     var_i0 += var_i1;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
     var_p2 = var_i0;
-    var_i1 = 101640u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = var_l3;
       var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 56u);
@@ -3572,12 +3569,18 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
       var_i3 = var_l3;
       var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 60u);
       var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+      var_i4 = 125168u;
+      var_i5 = 8u;
+      var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
       var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-      var_i1 = 101656u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B1;}
+      var_i0 = 125176u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     }
+    var_i0 = 124520u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l3;
     var_i1 = var_p1;
     var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 16u);
@@ -3600,7 +3603,10 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
     var_i4 = 12u;
     var_i3 += var_i4;
     var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3));
-    w2c_output_f42(instance, var_i0, var_i1, var_i2, var_i3);
+    w2c_output_f45(instance, var_i0, var_i1, var_i2, var_i3);
+    var_i0 = 124704u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l3;
     var_i1 = var_l3;
     var_j1 = i64_load(instance->w2c_env_memory, (u64)(var_i1) + 16u);
@@ -3615,7 +3621,10 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
     var_i4 = 4u;
     var_i3 += var_i4;
     var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3));
-    w2c_output_f42(instance, var_i0, var_i1, var_i2, var_i3);
+    w2c_output_f45(instance, var_i0, var_i1, var_i2, var_i3);
+    var_i0 = 124824u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l3;
     var_i1 = var_l3;
     var_j1 = i64_load(instance->w2c_env_memory, (u64)(var_i1) + 8u);
@@ -3647,13 +3656,16 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
     var_i1 += var_i2;
     var_i2 = var_p2;
     var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 4u);
+    var_i3 = 125080u;
+    var_i4 = 8u;
+    var_i3 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i3, var_i4);
     var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32), w2c_output_t5, var_i2, instance->w2c_T0.data[var_i2].module_instance, var_i0, var_i1);
     var_i0 = !(var_i0);
-    var_i1 = 101648u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_L6;}
-  var_i0 = 101576u;
+    var_i0 = 125096u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 123912u;
   var_i1 = 8u;
   var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   goto var_B1;
@@ -3661,9 +3673,6 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   var_i0 = var_l6;
   var_i1 = var_l8;
   var_i0 = var_i0 < var_i1;
-  var_i1 = 101544u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l3;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 56u);
@@ -3679,16 +3688,19 @@ u32 w2c_output_f8(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
     var_i3 = var_l3;
     var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 60u);
     var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+    var_i4 = 125296u;
+    var_i5 = 8u;
+    var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
     var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-    var_i1 = 101664u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B1;}
+    var_i0 = 125304u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   }
+  var_i0 = 123664u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = 0u;
-  var_i1 = 101552u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   goto var_B0;
   var_B1:;
   var_i0 = 1u;
@@ -3760,9 +3772,6 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
   var_i1 = var_l5;
   var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
   var_l8 = var_i1;
-  var_i2 = 101856u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   switch (var_i1) {
     case 0: goto var_B8;
     case 1: goto var_B7;
@@ -3770,21 +3779,18 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
   }
   var_B8:;
   var_i1 = var_l6;
-  var_i2 = 101840u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   if (var_i1) {goto var_B4;}
+  var_i1 = 128976u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = 1u;
-  var_i2 = 101848u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   goto var_B6;
   var_B7:;
   var_i1 = var_l6;
-  var_i2 = 101832u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   if (var_i1) {goto var_B5;}
+  var_i1 = 128912u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = var_l3;
   var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
   var_p0 = var_i1;
@@ -3796,10 +3802,10 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
   var_i2 = var_p0;
   var_i3 = 66992u;
   w2c_output_f30(instance, var_i1, var_i2, var_i3);
+  var_i1 = 128792u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = var_p0;
-  var_i2 = 101816u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   if (var_i1) {
     var_i1 = var_l2;
     var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
@@ -3807,6 +3813,9 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
     var_i3 = var_p0;
     memory_copy(instance->w2c_env_memory, instance->w2c_env_memory, var_i1, var_i2, var_i3);
   }
+  var_i1 = 128808u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = var_l4;
   var_i2 = 8u;
   var_i1 += var_i2;
@@ -3816,18 +3825,12 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
   var_i2 = var_l2;
   var_j2 = i64_load(instance->w2c_env_memory, (u64)(var_i2));
   i64_store(instance->w2c_env_memory, (u64)(var_i1), var_j2);
-  var_i1 = 101824u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   goto var_B2;
   var_B5:;
   var_i1 = var_l3;
   var_i2 = 4u;
   var_i1 += var_i2;
   var_l7 = var_i1;
-  var_i1 = 101784u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_L10: 
     var_i1 = var_l7;
     var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1));
@@ -3842,32 +3845,35 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
     var_i2 = 1u;
     var_i1 -= var_i2;
     var_l8 = var_i1;
-    var_i2 = 101864u;
-    var_i3 = 8u;
-    var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
     if (var_i1) {goto var_L10;}
+    var_i1 = 129176u;
+    var_i2 = 8u;
+    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+  var_i1 = 128624u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = var_p0;
   var_i2 = var_l6;
   var_i2 = !(var_i2);
-  var_i3 = 101792u;
-  var_i4 = 8u;
-  var_i3 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i3, var_i4);
   if (var_i2) {goto var_B3;}
+  var_i2 = 128656u;
+  var_i3 = 8u;
+  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   var_i1 = var_p0;
   var_i2 = 15u;
   var_i1 = var_i1 > var_i2;
-  var_i2 = 101800u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   if (var_i1) {goto var_B4;}
+  var_i1 = 128696u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = 0u;
   var_i2 = var_l3;
   var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 4u);
   var_i2 = !(var_i2);
-  var_i3 = 101808u;
-  var_i4 = 8u;
-  var_i3 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i3, var_i4);
   if (var_i2) {goto var_B3;}
+  var_i2 = 128736u;
+  var_i3 = 8u;
+  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   var_B4:;
   var_i1 = var_p0;
   var_i2 = 0u;
@@ -3880,13 +3886,19 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
   var_B3:;
   var_i2 = 67124u;
   w2c_output_f30(instance, var_i0, var_i1, var_i2);
+  var_i0 = 128376u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l2;
   var_i1 = var_l5;
-  var_i0 = w2c_output_f58(instance, var_i0, var_i1);
-  var_i1 = 101776u;
+  var_i0 = w2c_output_f57(instance, var_i0, var_i1);
+  var_i1 = 128400u;
   var_i2 = 8u;
   var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B1;}
+  var_i0 = 128408u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l4;
   var_i1 = var_l2;
   var_j1 = i64_load(instance->w2c_env_memory, (u64)(var_i1));
@@ -3904,9 +3916,6 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
   var_i1 = 16u;
   var_i0 += var_i1;
   instance->w2c_g0 = var_i0;
-  var_i0 = 101768u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   goto var_B0;
   var_B1:;
   var_i0 = instance->w2c_g0;
@@ -3962,7 +3971,10 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
   var_i1 = 24u;
   var_i0 += var_i1;
   var_i1 = 66860u;
-  w2c_output_f50(instance, var_i0, var_i1);
+  w2c_output_f49(instance, var_i0, var_i1);
+  var_i0 = 128288u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_B0:;
   var_i0 = var_l1;
@@ -3974,30 +3986,33 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
   var_i0 = 68692u;
   var_i0 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i0));
   var_i0 = !(var_i0);
-  var_i1 = 101872u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = 68693u;
     var_i0 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i0));
-    var_i1 = 101888u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B11;}
+    var_i0 = 129304u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   }
+  var_i0 = 129208u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i1 = var_l1;
   var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-  var_i1 = 9u;
-  var_i0 = var_i0 != var_i1;
-  var_i1 = 101880u;
+  var_i1 = 129232u;
   var_i2 = 8u;
   var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+  var_i1 = 9u;
+  var_i0 = var_i0 != var_i1;
   if (var_i0) {
     var_i0 = 68692u;
     var_i1 = 1u;
     i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
   }
+  var_i0 = 129256u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = 68693u;
   var_i1 = 1u;
   i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
@@ -4006,283 +4021,11 @@ void w2c_output_f9(w2c_output* instance, u32 var_p0) {
   FUNC_EPILOGUE;
 }
 
-u32 w2c_output_f10(w2c_output* instance, u32 var_p0, u32 var_p1) {
-  u32 var_l2 = 0, var_l3 = 0, var_l4 = 0, var_l5 = 0, var_l6 = 0, var_l7 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3;
-  var_i0 = instance->w2c_g0;
-  var_i1 = 48u;
-  var_i0 -= var_i1;
-  var_l2 = var_i0;
-  instance->w2c_g0 = var_i0;
-  var_i0 = var_p0;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
-  var_l4 = var_i0;
-  var_i0 = var_p0;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
-  var_l3 = var_i0;
-  var_i0 = var_p1;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
-  var_l6 = var_i0;
-  var_i1 = var_p1;
-  var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 8u);
-  var_p0 = var_i1;
-  var_i0 |= var_i1;
-  var_i1 = 102184u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = var_p0;
-    var_i1 = 1u;
-    var_i0 &= var_i1;
-    var_i0 = !(var_i0);
-    var_i1 = 102200u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {goto var_B1;}
-    var_i0 = var_p1;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
-    var_p0 = var_i0;
-    var_i0 = var_l2;
-    var_i1 = 0u;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 44, var_i1);
-    var_i0 = var_l2;
-    var_i1 = var_l3;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 36, var_i1);
-    var_i0 = var_l2;
-    var_i1 = var_l3;
-    var_i2 = var_l4;
-    var_i1 += var_i2;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 40, var_i1);
-    var_i0 = var_p0;
-    var_i1 = 1u;
-    var_i0 += var_i1;
-    var_p0 = var_i0;
-    var_i0 = 102208u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-    var_L5: 
-      var_i0 = var_p0;
-      var_i1 = 1u;
-      var_i0 -= var_i1;
-      var_p0 = var_i0;
-      var_i1 = 102232u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-      if (var_i0) {
-        var_i0 = var_l2;
-        var_i1 = 24u;
-        var_i0 += var_i1;
-        var_i1 = var_l2;
-        var_i2 = 36u;
-        var_i1 += var_i2;
-        w2c_output_f17(instance, var_i0, var_i1);
-        var_i0 = var_l2;
-        var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
-        var_i1 = 1114112u;
-        var_i0 = var_i0 != var_i1;
-        var_i1 = 102240u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-        if (var_i0) {goto var_L5;}
-        var_i0 = 102248u;
-        var_i1 = 8u;
-        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-        goto var_B1;
-      }
-    var_i0 = var_l2;
-    var_i1 = 16u;
-    var_i0 += var_i1;
-    var_i1 = var_l2;
-    var_i2 = 36u;
-    var_i1 += var_i2;
-    w2c_output_f17(instance, var_i0, var_i1);
-    var_i0 = var_l2;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 20u);
-    var_i1 = 1114112u;
-    var_i0 = var_i0 == var_i1;
-    var_i1 = 102216u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {goto var_B1;}
-    var_i0 = var_l2;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 16u);
-    var_l5 = var_i0;
-    var_i0 = !(var_i0);
-    var_i1 = 102256u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {goto var_B7;}
-    var_i0 = var_l4;
-    var_i1 = var_l5;
-    var_i0 = var_i0 <= var_i1;
-    var_i1 = 102264u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {
-      var_i0 = var_l4;
-      var_i1 = var_l5;
-      var_i0 = var_i0 == var_i1;
-      var_i1 = 102280u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-      if (var_i0) {goto var_B7;}
-      var_i0 = 102288u;
-      var_i1 = 8u;
-      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-      goto var_B3;
-    }
-    var_i0 = var_l3;
-    var_i1 = var_l5;
-    var_i0 += var_i1;
-    var_i0 = i32_load8_s(instance->w2c_env_memory, (u64)(var_i0));
-    var_i1 = 4294967232u;
-    var_i0 = (u32)((s32)var_i0 < (s32)var_i1);
-    var_i1 = 102272u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {goto var_B3;}
-    var_B7:;
-    var_i0 = var_l3;
-    var_i1 = 102224u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    goto var_B2;
-  }
-  var_i0 = var_p1;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
-  var_i1 = var_l3;
-  var_i2 = var_l4;
-  var_i3 = var_p1;
-  var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 32u);
-  var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
-  var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-  var_p0 = var_i0;
-  var_i0 = 102192u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-  goto var_B0;
-  var_B3:;
-  var_i0 = 0u;
-  var_B2:;
-  var_p0 = var_i0;
-  var_i0 = var_l5;
-  var_i1 = var_l4;
-  var_i2 = var_p0;
-  var_i0 = var_i2 ? var_i0 : var_i1;
-  var_l4 = var_i0;
-  var_i0 = var_p0;
-  var_i1 = var_l3;
-  var_i2 = var_p0;
-  var_i0 = var_i2 ? var_i0 : var_i1;
-  var_l3 = var_i0;
-  var_B1:;
-  var_i0 = var_l6;
-  var_i0 = !(var_i0);
-  var_i1 = 102168u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = var_p1;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
-    var_i1 = var_l3;
-    var_i2 = var_l4;
-    var_i3 = var_p1;
-    var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 32u);
-    var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
-    var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-    var_p0 = var_i0;
-    var_i0 = 102296u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-    goto var_B0;
-  }
-  var_i0 = var_p1;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
-  var_p0 = var_i0;
-  var_i1 = var_l3;
-  var_i2 = var_l3;
-  var_i3 = var_l4;
-  var_i2 += var_i3;
-  var_i1 = w2c_output_f12(instance, var_i1, var_i2);
-  var_l5 = var_i1;
-  var_i0 = var_i0 > var_i1;
-  var_i1 = 102176u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = var_l2;
-    var_i1 = 8u;
-    var_i0 += var_i1;
-    var_i1 = var_p1;
-    var_i2 = var_p0;
-    var_i3 = var_l5;
-    var_i2 -= var_i3;
-    var_i3 = 0u;
-    w2c_output_f23(instance, var_i0, var_i1, var_i2, var_i3);
-    var_i0 = 1u;
-    var_p0 = var_i0;
-    var_i0 = var_l2;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
-    var_l5 = var_i0;
-    var_i1 = 1114112u;
-    var_i0 = var_i0 == var_i1;
-    var_i1 = 102304u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {goto var_B0;}
-    var_i0 = var_l2;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
-    var_l6 = var_i0;
-    var_i0 = var_p1;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
-    var_l7 = var_i0;
-    var_i1 = var_l3;
-    var_i2 = var_l4;
-    var_i3 = var_p1;
-    var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 32u);
-    var_p1 = var_i3;
-    var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
-    var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-    var_i1 = 102312u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {goto var_B0;}
-    var_i0 = var_l5;
-    var_i1 = var_l6;
-    var_i2 = var_l7;
-    var_i3 = var_p1;
-    var_i0 = w2c_output_f41(instance, var_i0, var_i1, var_i2, var_i3);
-    var_p0 = var_i0;
-    var_i0 = 102320u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-    goto var_B0;
-  }
-  var_i0 = var_p1;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
-  var_i1 = var_l3;
-  var_i2 = var_l4;
-  var_i3 = var_p1;
-  var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 32u);
-  var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
-  var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-  var_p0 = var_i0;
-  var_B0:;
-  var_i0 = var_l2;
-  var_i1 = 48u;
-  var_i0 += var_i1;
-  instance->w2c_g0 = var_i0;
-  var_i0 = var_p0;
-  FUNC_EPILOGUE;
-  return var_i0;
-}
-
-u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3, u32 var_p4) {
+u32 w2c_output_f10(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3, u32 var_p4) {
   u32 var_l5 = 0, var_l6 = 0, var_l7 = 0, var_l8 = 0, var_l9 = 0, var_l10 = 0, var_l11 = 0, var_l12 = 0, 
       var_l13 = 0;
   FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3, var_i4;
+  u32 var_i0, var_i1, var_i2, var_i3, var_i4, var_i5;
   var_i0 = instance->w2c_g0;
   var_i1 = 16u;
   var_i0 -= var_i1;
@@ -4301,22 +4044,22 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
   var_i1 = 4u;
   var_i0 &= var_i1;
   var_i0 = !(var_i0);
-  var_i1 = 100328u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = 0u;
     var_p1 = var_i0;
-    var_i0 = 100336u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B0;
   }
+  var_i0 = 105680u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p1;
   var_i1 = var_p1;
   var_i2 = var_p2;
   var_i1 += var_i2;
   var_i0 = w2c_output_f12(instance, var_i0, var_i1);
+  var_i1 = 105720u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = var_l6;
   var_i0 += var_i1;
   var_l6 = var_i0;
@@ -4329,9 +4072,6 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
   var_i0 = var_p0;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
   var_i0 = !(var_i0);
-  var_i1 = 100344u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p0;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
@@ -4342,31 +4082,34 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
     var_i2 = var_l8;
     var_i3 = var_p1;
     var_i4 = var_p2;
-    var_i0 = w2c_output_f40(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
-    var_i1 = 100400u;
+    var_i0 = w2c_output_f39(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+    var_i1 = 106328u;
     var_i2 = 8u;
     var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B3;}
+    var_i0 = 106336u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l5;
     var_i1 = var_p3;
     var_i2 = var_p4;
     var_i3 = var_p0;
     var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+    var_i4 = 106384u;
+    var_i5 = 8u;
+    var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
     var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
     var_l5 = var_i0;
-    var_i0 = 100408u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B2;
   }
+  var_i0 = 105824u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l6;
   var_i1 = var_p0;
   var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
   var_l9 = var_i1;
   var_i0 = var_i0 >= var_i1;
-  var_i1 = 100352u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p0;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
@@ -4377,29 +4120,32 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
     var_i2 = var_l8;
     var_i3 = var_p1;
     var_i4 = var_p2;
-    var_i0 = w2c_output_f40(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
-    var_i1 = 100416u;
+    var_i0 = w2c_output_f39(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+    var_i1 = 106480u;
     var_i2 = 8u;
     var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B3;}
+    var_i0 = 106488u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l5;
     var_i1 = var_p3;
     var_i2 = var_p4;
     var_i3 = var_p0;
     var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+    var_i4 = 106536u;
+    var_i5 = 8u;
+    var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
     var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
     var_l5 = var_i0;
-    var_i0 = 100424u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B2;
   }
+  var_i0 = 105872u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l5;
   var_i1 = 8u;
   var_i0 &= var_i1;
-  var_i1 = 100360u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p0;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 16u);
@@ -4424,11 +4170,14 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
     var_i2 = var_l8;
     var_i3 = var_p1;
     var_i4 = var_p2;
-    var_i0 = w2c_output_f40(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
-    var_i1 = 100432u;
+    var_i0 = w2c_output_f39(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+    var_i1 = 106744u;
     var_i2 = 8u;
     var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B2;}
+    var_i0 = 106752u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l7;
     var_i1 = 8u;
     var_i0 += var_i1;
@@ -4437,16 +4186,19 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
     var_i3 = var_l6;
     var_i2 -= var_i3;
     var_i3 = 1u;
-    w2c_output_f23(instance, var_i0, var_i1, var_i2, var_i3);
+    w2c_output_f27(instance, var_i0, var_i1, var_i2, var_i3);
+    var_i0 = 106824u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l7;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
     var_p1 = var_i0;
     var_i1 = 1114112u;
     var_i0 = var_i0 == var_i1;
-    var_i1 = 100440u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B2;}
+    var_i0 = 106872u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l7;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
     var_p2 = var_i0;
@@ -4455,20 +4207,26 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
     var_i2 = var_p4;
     var_i3 = var_l11;
     var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+    var_i4 = 106944u;
+    var_i5 = 8u;
+    var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
     var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-    var_i1 = 100448u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B2;}
+    var_i0 = 106952u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_p1;
     var_i1 = var_p2;
     var_i2 = var_l10;
     var_i3 = var_l11;
     var_i0 = w2c_output_f41(instance, var_i0, var_i1, var_i2, var_i3);
-    var_i1 = 100456u;
+    var_i1 = 106992u;
     var_i2 = 8u;
     var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B2;}
+    var_i0 = 107000u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_p0;
     var_i1 = var_l13;
     i32_store8(instance->w2c_env_memory, (u64)(var_i0) + 24, var_i1);
@@ -4477,11 +4235,11 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
     i32_store(instance->w2c_env_memory, (u64)(var_i0) + 16, var_i1);
     var_i0 = 0u;
     var_l5 = var_i0;
-    var_i0 = 100464u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B2;
   }
+  var_i0 = 105904u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = 1u;
   var_l5 = var_i0;
   var_i0 = var_l7;
@@ -4490,16 +4248,19 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
   var_i3 = var_l6;
   var_i2 -= var_i3;
   var_i3 = 1u;
-  w2c_output_f23(instance, var_i0, var_i1, var_i2, var_i3);
+  w2c_output_f27(instance, var_i0, var_i1, var_i2, var_i3);
+  var_i0 = 105976u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l7;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
   var_l9 = var_i0;
   var_i1 = 1114112u;
   var_i0 = var_i0 == var_i1;
-  var_i1 = 100368u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B2;}
+  var_i0 = 106024u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l7;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
   var_l10 = var_i0;
@@ -4512,30 +4273,36 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
   var_i2 = var_l8;
   var_i3 = var_p1;
   var_i4 = var_p2;
-  var_i0 = w2c_output_f40(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
-  var_i1 = 100376u;
+  var_i0 = w2c_output_f39(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+  var_i1 = 106128u;
   var_i2 = 8u;
   var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B2;}
+  var_i0 = 106136u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l6;
   var_i1 = var_p3;
   var_i2 = var_p4;
   var_i3 = var_p0;
   var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+  var_i4 = 106184u;
+  var_i5 = 8u;
+  var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
   var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-  var_i1 = 100384u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B2;}
+  var_i0 = 106192u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l9;
   var_i1 = var_l10;
   var_i2 = var_l6;
   var_i3 = var_p0;
   var_i0 = w2c_output_f41(instance, var_i0, var_i1, var_i2, var_i3);
+  var_i1 = 106232u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_l5 = var_i0;
-  var_i0 = 100392u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   goto var_B2;
   var_B3:;
   var_i0 = 1u;
@@ -4550,6 +4317,287 @@ u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
   return var_i0;
 }
 
+u32 w2c_output_f11(w2c_output* instance, u32 var_p0, u32 var_p1) {
+  u32 var_l2 = 0, var_l3 = 0, var_l4 = 0, var_l5 = 0, var_l6 = 0, var_l7 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2, var_i3, var_i4, var_i5;
+  var_i0 = instance->w2c_g0;
+  var_i1 = 48u;
+  var_i0 -= var_i1;
+  var_l2 = var_i0;
+  instance->w2c_g0 = var_i0;
+  var_i0 = var_p0;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
+  var_l4 = var_i0;
+  var_i0 = var_p0;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
+  var_l3 = var_i0;
+  var_i0 = var_p1;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
+  var_l6 = var_i0;
+  var_i1 = var_p1;
+  var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 8u);
+  var_p0 = var_i1;
+  var_i0 |= var_i1;
+  if (var_i0) {
+    var_i0 = var_p0;
+    var_i1 = 1u;
+    var_i0 &= var_i1;
+    var_i0 = !(var_i0);
+    if (var_i0) {goto var_B1;}
+    var_i0 = 133592u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_p1;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
+    var_p0 = var_i0;
+    var_i0 = var_l2;
+    var_i1 = 0u;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 44, var_i1);
+    var_i0 = var_l2;
+    var_i1 = var_l3;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 36, var_i1);
+    var_i0 = var_l2;
+    var_i1 = var_l3;
+    var_i2 = var_l4;
+    var_i1 += var_i2;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 40, var_i1);
+    var_i0 = var_p0;
+    var_i1 = 1u;
+    var_i0 += var_i1;
+    var_p0 = var_i0;
+    var_L5: 
+      var_i0 = var_p0;
+      var_i1 = 1u;
+      var_i0 -= var_i1;
+      var_p0 = var_i0;
+      if (var_i0) {
+        var_i0 = var_l2;
+        var_i1 = 24u;
+        var_i0 += var_i1;
+        var_i1 = var_l2;
+        var_i2 = 36u;
+        var_i1 += var_i2;
+        w2c_output_f17(instance, var_i0, var_i1);
+        var_i0 = 133960u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+        var_i0 = var_l2;
+        var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
+        var_i1 = 1114112u;
+        var_i0 = var_i0 != var_i1;
+        if (var_i0) {goto var_L5;}
+        var_i0 = 134000u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+        goto var_B1;
+      }
+      var_i0 = 133904u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = 133744u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_l2;
+    var_i1 = 16u;
+    var_i0 += var_i1;
+    var_i1 = var_l2;
+    var_i2 = 36u;
+    var_i1 += var_i2;
+    w2c_output_f17(instance, var_i0, var_i1);
+    var_i0 = 133800u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_l2;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 20u);
+    var_i1 = 1114112u;
+    var_i0 = var_i0 == var_i1;
+    if (var_i0) {goto var_B1;}
+    var_i0 = 133840u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_l2;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 16u);
+    var_l5 = var_i0;
+    var_i0 = !(var_i0);
+    if (var_i0) {goto var_B7;}
+    var_i0 = 134048u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_l4;
+    var_i1 = var_l5;
+    var_i0 = var_i0 <= var_i1;
+    if (var_i0) {
+      var_i0 = var_l4;
+      var_i1 = var_l5;
+      var_i0 = var_i0 == var_i1;
+      if (var_i0) {goto var_B7;}
+      var_i0 = 134168u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+      goto var_B3;
+    }
+    var_i0 = 134080u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_l3;
+    var_i1 = var_l5;
+    var_i0 += var_i1;
+    var_i0 = i32_load8_s(instance->w2c_env_memory, (u64)(var_i0));
+    var_i1 = 4294967232u;
+    var_i0 = (u32)((s32)var_i0 < (s32)var_i1);
+    if (var_i0) {goto var_B3;}
+    var_i0 = 134136u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_B7:;
+    var_i0 = var_l3;
+    goto var_B2;
+  }
+  var_i0 = 133472u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_p1;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
+  var_i1 = var_l3;
+  var_i2 = var_l4;
+  var_i3 = var_p1;
+  var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 32u);
+  var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+  var_i4 = 133536u;
+  var_i5 = 8u;
+  var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
+  var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
+  var_p0 = var_i0;
+  goto var_B0;
+  var_B3:;
+  var_i0 = 0u;
+  var_B2:;
+  var_p0 = var_i0;
+  var_i0 = var_l5;
+  var_i1 = var_l4;
+  var_i2 = var_p0;
+  var_i0 = var_i2 ? var_i0 : var_i1;
+  var_l4 = var_i0;
+  var_i0 = var_p0;
+  var_i1 = var_l3;
+  var_i2 = var_p0;
+  var_i0 = var_i2 ? var_i0 : var_i1;
+  var_l3 = var_i0;
+  var_B1:;
+  var_i0 = var_l6;
+  var_i0 = !(var_i0);
+  if (var_i0) {
+    var_i0 = var_p1;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
+    var_i1 = var_l3;
+    var_i2 = var_l4;
+    var_i3 = var_p1;
+    var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 32u);
+    var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+    var_i4 = 134240u;
+    var_i5 = 8u;
+    var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
+    var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
+    var_p0 = var_i0;
+    goto var_B0;
+  }
+  var_i0 = 133136u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_p1;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
+  var_p0 = var_i0;
+  var_i1 = var_l3;
+  var_i2 = var_l3;
+  var_i3 = var_l4;
+  var_i2 += var_i3;
+  var_i1 = w2c_output_f12(instance, var_i1, var_i2);
+  var_i2 = 133200u;
+  var_i3 = 8u;
+  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
+  var_l5 = var_i1;
+  var_i0 = var_i0 > var_i1;
+  if (var_i0) {
+    var_i0 = var_l2;
+    var_i1 = 8u;
+    var_i0 += var_i1;
+    var_i1 = var_p1;
+    var_i2 = var_p0;
+    var_i3 = var_l5;
+    var_i2 -= var_i3;
+    var_i3 = 0u;
+    w2c_output_f27(instance, var_i0, var_i1, var_i2, var_i3);
+    var_i0 = 134328u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = 1u;
+    var_p0 = var_i0;
+    var_i0 = var_l2;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
+    var_l5 = var_i0;
+    var_i1 = 1114112u;
+    var_i0 = var_i0 == var_i1;
+    if (var_i0) {goto var_B0;}
+    var_i0 = 134392u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_l2;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
+    var_l6 = var_i0;
+    var_i0 = var_p1;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
+    var_l7 = var_i0;
+    var_i1 = var_l3;
+    var_i2 = var_l4;
+    var_i3 = var_p1;
+    var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 32u);
+    var_p1 = var_i3;
+    var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+    var_i4 = 134496u;
+    var_i5 = 8u;
+    var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
+    var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
+    if (var_i0) {goto var_B0;}
+    var_i0 = 134504u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_l5;
+    var_i1 = var_l6;
+    var_i2 = var_l7;
+    var_i3 = var_p1;
+    var_i0 = w2c_output_f41(instance, var_i0, var_i1, var_i2, var_i3);
+    var_i1 = 134544u;
+    var_i2 = 8u;
+    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+    var_p0 = var_i0;
+    goto var_B0;
+  }
+  var_i0 = 133224u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_p1;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
+  var_i1 = var_l3;
+  var_i2 = var_l4;
+  var_i3 = var_p1;
+  var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 32u);
+  var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+  var_i4 = 133288u;
+  var_i5 = 8u;
+  var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
+  var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
+  var_p0 = var_i0;
+  var_B0:;
+  var_i0 = var_l2;
+  var_i1 = 48u;
+  var_i0 += var_i1;
+  instance->w2c_g0 = var_i0;
+  var_i0 = var_p0;
+  FUNC_EPILOGUE;
+  return var_i0;
+}
+
 u32 w2c_output_f12(w2c_output* instance, u32 var_p0, u32 var_p1) {
   u32 var_l2 = 0, var_l3 = 0, var_l4 = 0, var_l5 = 0, var_l6 = 0, var_l7 = 0, var_l8 = 0;
   FUNC_PROLOGUE;
@@ -4560,9 +4608,6 @@ u32 w2c_output_f12(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_l2 = var_i0;
   var_i1 = 16u;
   var_i0 = var_i0 >= var_i1;
-  var_i1 = 101896u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p0;
     var_i1 = var_p0;
@@ -4574,7 +4619,10 @@ u32 w2c_output_f12(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i2 = var_p0;
     var_i1 -= var_i2;
     var_p0 = var_i1;
-    var_i0 = w2c_output_f43(instance, var_i0, var_i1);
+    var_i0 = w2c_output_f46(instance, var_i0, var_i1);
+    var_i1 = 129520u;
+    var_i2 = 8u;
+    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     var_i1 = var_p1;
     var_i2 = var_l2;
     var_i3 = var_p0;
@@ -4586,24 +4634,24 @@ u32 w2c_output_f12(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i2 = var_p0;
     var_i3 = 3u;
     var_i2 &= var_i3;
-    var_i1 = w2c_output_f43(instance, var_i1, var_i2);
+    var_i1 = w2c_output_f46(instance, var_i1, var_i2);
+    var_i2 = 129616u;
+    var_i3 = 8u;
+    var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
     var_i0 += var_i1;
     var_l3 = var_i0;
     var_i0 = var_p0;
     var_i1 = 2u;
     var_i0 >>= (var_i1 & 31);
     var_p0 = var_i0;
-    var_i0 = 101904u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_L2: 
       var_i0 = var_p0;
       var_l5 = var_i0;
       var_i0 = !(var_i0);
-      var_i1 = 101912u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B0;}
+      var_i0 = 129712u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_p1;
       var_l2 = var_i0;
       var_i1 = 192u;
@@ -4624,30 +4672,21 @@ u32 w2c_output_f12(w2c_output* instance, u32 var_p0, u32 var_p1) {
       var_p0 = var_i0;
       var_i0 = var_l2;
       var_l4 = var_i0;
-      var_i0 = 101920u;
-      var_i1 = 8u;
-      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_L3: 
         var_i0 = var_l4;
         var_i1 = var_l8;
         var_i0 = var_i0 != var_i1;
-        var_i1 = 101936u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {
           var_i0 = 0u;
           var_p1 = var_i0;
-          var_i0 = 101960u;
-          var_i1 = 8u;
-          var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
           var_L6: 
             var_i0 = var_p1;
             var_i1 = 16u;
             var_i0 = var_i0 == var_i1;
-            var_i1 = 101968u;
-            var_i2 = 8u;
-            var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
             if (var_i0) {goto var_B4;}
+            var_i0 = 130448u;
+            var_i1 = 8u;
+            var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
             var_i0 = var_p0;
             var_i1 = var_p1;
             var_i2 = var_l4;
@@ -4670,12 +4709,15 @@ u32 w2c_output_f12(w2c_output* instance, u32 var_p0, u32 var_p1) {
             var_i1 = 4u;
             var_i0 += var_i1;
             var_p1 = var_i0;
-            var_i0 = 101976u;
-            var_i1 = 8u;
-            var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
             goto var_L6;
+          var_i0 = 130408u;
+          var_i1 = 8u;
+          var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
           UNREACHABLE;
         }
+        var_i0 = 129968u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_i0 = var_p0;
         var_i1 = 8u;
         var_i0 >>= (var_i1 & 31);
@@ -4704,10 +4746,10 @@ u32 w2c_output_f12(w2c_output* instance, u32 var_p0, u32 var_p1) {
         var_i1 = 3u;
         var_i0 &= var_i1;
         var_i0 = !(var_i0);
-        var_i1 = 101944u;
-        var_i2 = 8u;
-        var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
         if (var_i0) {goto var_L2;}
+        var_i0 = 130200u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_i0 = var_l2;
         var_i1 = var_l6;
         var_i2 = 252u;
@@ -4729,14 +4771,8 @@ u32 w2c_output_f12(w2c_output* instance, u32 var_p0, u32 var_p1) {
         var_p1 = var_i0;
         var_i0 = 0u;
         var_l2 = var_i0;
-        var_i0 = 101952u;
-        var_i1 = 8u;
-        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         var_L7: 
           var_i0 = var_p1;
-          var_i1 = 101984u;
-          var_i2 = 8u;
-          var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
           if (var_i0) {
             var_i0 = var_l2;
             var_i1 = var_p0;
@@ -4762,9 +4798,6 @@ u32 w2c_output_f12(w2c_output* instance, u32 var_p0, u32 var_p1) {
             var_i1 = 4u;
             var_i0 += var_i1;
             var_p0 = var_i0;
-            var_i0 = 101992u;
-            var_i1 = 8u;
-            var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
             goto var_L7;
           } else {
             var_i0 = var_l2;
@@ -4784,23 +4817,38 @@ u32 w2c_output_f12(w2c_output* instance, u32 var_p0, u32 var_p1) {
             var_i0 += var_i1;
             goto var_Bfunc;
           }
+          var_i0 = 130648u;
+          var_i1 = 8u;
+          var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
           UNREACHABLE;
+        var_i0 = 130376u;
+        var_i1 = 8u;
+        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         UNREACHABLE;
         var_B4:;
         var_i0 = var_l4;
         var_i1 = 16u;
         var_i0 += var_i1;
         var_l4 = var_i0;
-        var_i0 = 101928u;
-        var_i1 = 8u;
-        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         goto var_L3;
+      var_i0 = 129880u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       UNREACHABLE;
+    var_i0 = 129672u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     UNREACHABLE;
   }
+  var_i0 = 129400u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i1 = var_l2;
-  var_i0 = w2c_output_f43(instance, var_i0, var_i1);
+  var_i0 = w2c_output_f46(instance, var_i0, var_i1);
+  var_i1 = 129424u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_l3 = var_i0;
   var_B0:;
   var_i0 = var_l3;
@@ -4824,41 +4872,32 @@ u32 w2c_output_f13(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
   var_l7 = var_i0;
   var_p0 = var_i0;
-  var_i0 = 100280u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_L1: 
     var_i0 = var_p0;
     var_i1 = 999u;
     var_i0 = var_i0 <= var_i1;
-    var_i1 = 100288u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = var_p0;
       var_i1 = 10u;
       var_i0 = var_i0 < var_i1;
-      var_i1 = 100296u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {
         var_i0 = var_l3;
         var_l2 = var_i0;
-        var_i0 = 100320u;
-        var_i1 = 8u;
-        var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
         goto var_B0;
       }
+      var_i0 = 104928u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l3;
       var_i1 = 2u;
       var_i0 -= var_i1;
       var_l2 = var_i0;
       var_i1 = 10u;
       var_i0 = var_i0 >= var_i1;
-      var_i1 = 100304u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       if (var_i0) {goto var_B3;}
+      var_i0 = 104984u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l4;
       var_i1 = 6u;
       var_i0 += var_i1;
@@ -4894,9 +4933,6 @@ u32 w2c_output_f13(w2c_output* instance, u32 var_p0, u32 var_p1) {
       var_i1 += var_i2;
       var_i1 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i1));
       i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-      var_i0 = 100312u;
-      var_i1 = 8u;
-      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_B0;
       var_B3:;
     } else {
@@ -4968,10 +5004,19 @@ u32 w2c_output_f13(w2c_output* instance, u32 var_p0, u32 var_p1) {
       var_l3 = var_i0;
       goto var_L1;
     }
+    var_i0 = 104888u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 104816u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l2;
   var_i1 = 10u;
   var_i2 = 68036u;
-  w2c_output_f36(instance, var_i0, var_i1, var_i2);
+  w2c_output_f38(instance, var_i0, var_i1, var_i2);
+  var_i0 = 104848u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_B0:;
   var_i0 = 0u;
@@ -4979,9 +5024,6 @@ u32 w2c_output_f13(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i2 = var_p0;
   var_i0 = var_i2 ? var_i0 : var_i1;
   var_i0 = !(var_i0);
-  var_i1 = 100272u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l2;
     var_i1 = 1u;
@@ -5001,6 +5043,9 @@ u32 w2c_output_f13(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i1 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i1));
     i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
   }
+  var_i0 = 104664u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p1;
   var_i1 = 1u;
   var_i2 = 0u;
@@ -5012,7 +5057,10 @@ u32 w2c_output_f13(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i4 = 10u;
   var_i5 = var_l2;
   var_i4 -= var_i5;
-  var_i0 = w2c_output_f11(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+  var_i0 = w2c_output_f10(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+  var_i1 = 104760u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_p0 = var_i0;
   var_i0 = var_l4;
   var_i1 = 16u;
@@ -5035,9 +5083,6 @@ u32 w2c_output_f14(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 = var_p1;
   var_i1 = 128u;
   var_i0 = var_i0 >= var_i1;
-  var_i1 = 101680u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l2;
     var_i1 = 0u;
@@ -5045,17 +5090,17 @@ u32 w2c_output_f14(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i0 = var_p1;
     var_i1 = 2048u;
     var_i0 = var_i0 < var_i1;
-    var_i1 = 101704u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B3;}
+    var_i0 = 126168u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_p1;
     var_i1 = 65536u;
     var_i0 = var_i0 >= var_i1;
-    var_i1 = 101712u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B2;}
+    var_i0 = 126200u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l2;
     var_i1 = var_p1;
     var_i2 = 12u;
@@ -5079,20 +5124,17 @@ u32 w2c_output_f14(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i0 += var_i1;
     var_i1 = 2u;
     var_i0 |= var_i1;
-    var_i1 = 101720u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     goto var_B1;
   }
+  var_i0 = 125960u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
   var_l4 = var_i0;
   var_i1 = var_p0;
   var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1));
   var_i0 = var_i0 == var_i1;
-  var_i1 = 101688u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = instance->w2c_g0;
     var_i1 = 16u;
@@ -5107,27 +5149,36 @@ u32 w2c_output_f14(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2));
     var_i3 = 1u;
     w2c_output_f20(instance, var_i0, var_i1, var_i2, var_i3);
+    var_i0 = 126496u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l3;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
     var_l5 = var_i0;
     var_i1 = 2147483649u;
     var_i0 = var_i0 != var_i1;
-    var_i1 = 101728u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = var_l5;
       var_i1 = var_l3;
       var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 12u);
       var_i2 = 67140u;
-      w2c_output_f25(instance, var_i0, var_i1, var_i2);
+      w2c_output_f24(instance, var_i0, var_i1, var_i2);
+      var_i0 = 126616u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       UNREACHABLE;
     }
+    var_i0 = 126544u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l3;
     var_i1 = 16u;
     var_i0 += var_i1;
     instance->w2c_g0 = var_i0;
   }
+  var_i0 = 126016u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i1 = var_l4;
   var_i2 = 1u;
@@ -5139,9 +5190,6 @@ u32 w2c_output_f14(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 += var_i1;
   var_i1 = var_p1;
   i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-  var_i0 = 101696u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   goto var_B0;
   var_B3:;
   var_i0 = var_l2;
@@ -5158,9 +5206,6 @@ u32 w2c_output_f14(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 += var_i1;
   var_i1 = 1u;
   var_i0 |= var_i1;
-  var_i1 = 101672u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   goto var_B1;
   var_B2:;
   var_i0 = var_l2;
@@ -5207,7 +5252,10 @@ u32 w2c_output_f14(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i2 = 12u;
   var_i1 += var_i2;
   var_i2 = var_l3;
-  w2c_output_f27(instance, var_i0, var_i1, var_i2);
+  w2c_output_f28(instance, var_i0, var_i1, var_i2);
+  var_i0 = 125536u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_B0:;
   var_i0 = var_l2;
   var_i1 = 16u;
@@ -5236,33 +5284,30 @@ u32 w2c_output_f15(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i1 = 16u;
   var_i0 &= var_i1;
   var_i0 = !(var_i0);
-  var_i1 = 100216u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l2;
     var_i1 = 32u;
     var_i0 &= var_i1;
-    var_i1 = 100240u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B1;}
+    var_i0 = 103960u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_p0;
     var_i1 = var_p1;
     var_i0 = w2c_output_f13(instance, var_i0, var_i1);
-    var_i1 = 100248u;
+    var_i1 = 103984u;
     var_i2 = 8u;
     var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     goto var_B0;
   }
+  var_i0 = 103776u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
   var_p0 = var_i0;
   var_i0 = 0u;
   var_l2 = var_i0;
-  var_i0 = 100224u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_L3: 
     var_i0 = var_l2;
     var_i1 = var_l4;
@@ -5296,10 +5341,13 @@ u32 w2c_output_f15(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i0 >>= (var_i1 & 31);
     var_p0 = var_i0;
     var_i0 = var_l3;
-    var_i1 = 100256u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_L3;}
+    var_i0 = 104256u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 103824u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p1;
   var_i1 = 67576u;
   var_i2 = 2u;
@@ -5311,8 +5359,8 @@ u32 w2c_output_f15(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i4 = 0u;
   var_i5 = var_l2;
   var_i4 -= var_i5;
-  var_i0 = w2c_output_f11(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
-  var_i1 = 100232u;
+  var_i0 = w2c_output_f10(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+  var_i1 = 103920u;
   var_i2 = 8u;
   var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   goto var_B0;
@@ -5322,9 +5370,6 @@ u32 w2c_output_f15(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_p0 = var_i0;
   var_i0 = 0u;
   var_l2 = var_i0;
-  var_i0 = 100208u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_L4: 
     var_i0 = var_l2;
     var_i1 = var_l4;
@@ -5358,10 +5403,13 @@ u32 w2c_output_f15(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i0 >>= (var_i1 & 31);
     var_p0 = var_i0;
     var_i0 = var_l3;
-    var_i1 = 100264u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_L4;}
+    var_i0 = 104520u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 103624u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p1;
   var_i1 = 67576u;
   var_i2 = 2u;
@@ -5373,7 +5421,10 @@ u32 w2c_output_f15(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i4 = 0u;
   var_i5 = var_l2;
   var_i4 -= var_i5;
-  var_i0 = w2c_output_f11(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+  var_i0 = w2c_output_f10(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+  var_i1 = 103720u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_B0:;
   var_p0 = var_i0;
   var_i0 = var_l4;
@@ -5395,9 +5446,6 @@ u32 w2c_output_f16(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 = var_p0;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
   var_l2 = var_i0;
-  var_i0 = 100472u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_L0: 
     var_i0 = var_p1;
     var_i0 = !(var_i0);
@@ -5406,9 +5454,6 @@ u32 w2c_output_f16(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i1 = var_i1 == var_i2;
     var_i0 |= var_i1;
     var_i0 = !(var_i0);
-    var_i1 = 100480u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = var_p0;
       var_i1 = var_l2;
@@ -5424,11 +5469,14 @@ u32 w2c_output_f16(w2c_output* instance, u32 var_p0, u32 var_p1) {
       var_i1 = 1u;
       var_i0 -= var_i1;
       var_p1 = var_i0;
-      var_i0 = 100488u;
-      var_i1 = 8u;
-      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_L0;
     }
+    var_i0 = 107224u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 107128u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = 1114112u;
   var_l4 = var_i0;
   var_i0 = var_p1;
@@ -5436,10 +5484,10 @@ u32 w2c_output_f16(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i2 = var_l3;
   var_i1 = var_i1 == var_i2;
   var_i0 |= var_i1;
-  var_i1 = 100496u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B2;}
+  var_i0 = 107392u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i1 = var_l2;
   var_i2 = 1u;
@@ -5454,10 +5502,10 @@ u32 w2c_output_f16(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 = (u32)((s32)var_i0 >> (var_i1 & 31));
   var_i1 = 0u;
   var_i0 = (u32)((s32)var_i0 >= (s32)var_i1);
-  var_i1 = 100504u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B2;}
+  var_i0 = 107512u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i1 = var_l2;
   var_i2 = 2u;
@@ -5475,9 +5523,6 @@ u32 w2c_output_f16(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 = var_l4;
   var_i1 = 223u;
   var_i0 = var_i0 <= var_i1;
-  var_i1 = 100512u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p1;
     var_i1 = 6u;
@@ -5486,6 +5531,9 @@ u32 w2c_output_f16(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i0 |= var_i1;
     goto var_Bfunc;
   }
+  var_i0 = 107656u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i1 = var_l2;
   var_i2 = 3u;
@@ -5503,9 +5551,6 @@ u32 w2c_output_f16(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 = var_l4;
   var_i1 = 240u;
   var_i0 = var_i0 < var_i1;
-  var_i1 = 100520u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l3;
     var_i1 = var_p1;
@@ -5514,6 +5559,9 @@ u32 w2c_output_f16(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i0 |= var_i1;
     goto var_Bfunc;
   }
+  var_i0 = 107800u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i1 = var_l2;
   var_i2 = 4u;
@@ -5553,10 +5601,10 @@ void w2c_output_f17(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i3 = var_p1;
   var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 4u);
   var_i2 = var_i2 == var_i3;
-  var_i3 = 102112u;
-  var_i4 = 8u;
-  var_i3 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i3, var_i4);
   if (var_i2) {goto var_B0;}
+  var_i2 = 132064u;
+  var_i3 = 8u;
+  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   var_i1 = var_p1;
   var_i2 = var_l2;
   var_i3 = 1u;
@@ -5572,10 +5620,10 @@ void w2c_output_f17(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i1 = (u32)((s32)var_i1 >> (var_i2 & 31));
   var_i2 = 0u;
   var_i1 = (u32)((s32)var_i1 >= (s32)var_i2);
-  var_i2 = 102120u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   if (var_i1) {goto var_B1;}
+  var_i1 = 132288u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = var_p1;
   var_i2 = var_l2;
   var_i3 = 2u;
@@ -5594,9 +5642,6 @@ void w2c_output_f17(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i1 = var_l3;
   var_i2 = 223u;
   var_i1 = var_i1 <= var_i2;
-  var_i2 = 102128u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   if (var_i1) {
     var_i1 = var_l6;
     var_i2 = 6u;
@@ -5604,11 +5649,11 @@ void w2c_output_f17(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i2 = var_l4;
     var_i1 |= var_i2;
     var_l3 = var_i1;
-    var_i1 = 102152u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     goto var_B1;
   }
+  var_i1 = 132440u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = var_p1;
   var_i2 = var_l2;
   var_i3 = 3u;
@@ -5627,9 +5672,6 @@ void w2c_output_f17(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i1 = var_l3;
   var_i2 = 240u;
   var_i1 = var_i1 < var_i2;
-  var_i2 = 102136u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   if (var_i1) {
     var_i1 = var_l4;
     var_i2 = var_l6;
@@ -5637,11 +5679,11 @@ void w2c_output_f17(w2c_output* instance, u32 var_p0, u32 var_p1) {
     var_i2 <<= (var_i3 & 31);
     var_i1 |= var_i2;
     var_l3 = var_i1;
-    var_i1 = 102160u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     goto var_B1;
   }
+  var_i1 = 132592u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = var_p1;
   var_i2 = var_l2;
   var_i3 = 4u;
@@ -5666,10 +5708,10 @@ void w2c_output_f17(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_l3 = var_i2;
   var_i3 = 1114112u;
   var_i2 = var_i2 == var_i3;
-  var_i3 = 102144u;
-  var_i4 = 8u;
-  var_i3 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i3, var_i4);
   if (var_i2) {goto var_B0;}
+  var_i2 = 132792u;
+  var_i3 = 8u;
+  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   var_B1:;
   var_i1 = var_p1;
   var_i2 = var_p1;
@@ -5689,135 +5731,10 @@ void w2c_output_f17(w2c_output* instance, u32 var_p0, u32 var_p1) {
   FUNC_EPILOGUE;
 }
 
-u32 w2c_output_f18(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
-  u32 var_l3 = 0, var_l4 = 0, var_l5 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3, var_i4;
-  var_i0 = instance->w2c_g0;
-  var_i1 = 16u;
-  var_i0 -= var_i1;
-  var_l4 = var_i0;
-  instance->w2c_g0 = var_i0;
-  var_i0 = var_p0;
-  var_i0 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i0) + 4u);
-  var_l3 = var_i0;
-  var_i0 = var_p0;
-  var_i1 = 0u;
-  i32_store8(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
-  var_i0 = var_l3;
-  var_i0 = !(var_i0);
-  var_i1 = 100120u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = 1u;
-    var_i1 = var_p0;
-    var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1));
-    var_p0 = var_i1;
-    var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
-    var_l5 = var_i1;
-    var_i2 = var_p2;
-    var_i1 = var_i1 < var_i2;
-    var_i2 = 100144u;
-    var_i3 = 8u;
-    var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
-    if (var_i1) {goto var_B0;}
-    var_i0 = var_p0;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
-    var_l3 = var_i0;
-    var_i0 = var_p2;
-    var_i1 = 100152u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {
-      var_i0 = var_p1;
-      var_i1 = var_l3;
-      var_i2 = var_p2;
-      memory_copy(instance->w2c_env_memory, instance->w2c_env_memory, var_i0, var_i1, var_i2);
-    }
-    var_i0 = var_p0;
-    var_i1 = var_l5;
-    var_i2 = var_p2;
-    var_i1 -= var_i2;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
-    var_i0 = var_p0;
-    var_i1 = var_p2;
-    var_i2 = var_l3;
-    var_i1 += var_i2;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-    var_i0 = 100160u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-    goto var_B1;
-  }
-  var_i0 = var_p1;
-  var_i1 = var_p0;
-  var_i1 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i1) + 5u);
-  i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-  var_i0 = var_p0;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
-  var_p0 = var_i0;
-  var_i0 = var_l4;
-  var_i1 = 8u;
-  var_i0 += var_i1;
-  var_i1 = 1u;
-  var_i2 = var_p1;
-  var_i3 = var_p2;
-  var_i4 = 65648u;
-  w2c_output_f29(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
-  var_i0 = 1u;
-  var_i1 = var_p0;
-  var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
-  var_l5 = var_i1;
-  var_i2 = var_l4;
-  var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 12u);
-  var_p1 = var_i2;
-  var_i1 = var_i1 < var_i2;
-  var_i2 = 100128u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
-  if (var_i1) {goto var_B0;}
-  var_i0 = var_p0;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
-  var_p2 = var_i0;
-  var_i0 = var_p1;
-  var_i1 = 100136u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = var_l4;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
-    var_i1 = var_p2;
-    var_i2 = var_p1;
-    memory_copy(instance->w2c_env_memory, instance->w2c_env_memory, var_i0, var_i1, var_i2);
-  }
-  var_i0 = var_p0;
-  var_i1 = var_l5;
-  var_i2 = var_p1;
-  var_i1 -= var_i2;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
-  var_i0 = var_p0;
-  var_i1 = var_p1;
-  var_i2 = var_p2;
-  var_i1 += var_i2;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-  var_B1:;
-  var_i0 = 0u;
-  var_B0:;
-  var_l3 = var_i0;
-  var_i0 = var_l4;
-  var_i1 = 16u;
-  var_i0 += var_i1;
-  instance->w2c_g0 = var_i0;
-  var_i0 = var_l3;
-  FUNC_EPILOGUE;
-  return var_i0;
-}
-
-u32 w2c_output_f19(w2c_output* instance, u32 var_p0, u32 var_p1) {
+u32 w2c_output_f18(w2c_output* instance, u32 var_p0, u32 var_p1) {
   u32 var_l2 = 0, var_l3 = 0, var_l4 = 0, var_l5 = 0, var_l6 = 0;
   FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3;
+  u32 var_i0, var_i1, var_i2, var_i3, var_i4, var_i5;
   u64 var_j1;
   var_i0 = instance->w2c_g0;
   var_i1 = 48u;
@@ -5846,11 +5763,14 @@ u32 w2c_output_f19(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_p1 = var_i3;
   var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
   var_l6 = var_i3;
+  var_i4 = 135136u;
+  var_i5 = 8u;
+  var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
   var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-  var_i1 = 102344u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B0;}
+  var_i0 = 135144u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l2;
   var_i1 = 3u;
   i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
@@ -5891,20 +5811,26 @@ u32 w2c_output_f19(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 = var_l4;
   var_i1 = var_p1;
   var_i2 = var_l2;
-  var_i0 = w2c_output_f59(instance, var_i0, var_i1, var_i2);
-  var_i1 = 102352u;
+  var_i0 = w2c_output_f58(instance, var_i0, var_i1, var_i2);
+  var_i1 = 135472u;
   var_i2 = 8u;
   var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B0;}
+  var_i0 = 135480u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l4;
   var_i1 = 67236u;
   var_i2 = 2u;
   var_i3 = var_l6;
+  var_i4 = 135520u;
+  var_i5 = 8u;
+  var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
   var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-  var_i1 = 102360u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B0;}
+  var_i0 = 135528u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l2;
   var_i1 = 40u;
   var_i0 += var_i1;
@@ -5928,7 +5854,10 @@ u32 w2c_output_f19(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 = var_l4;
   var_i1 = var_p1;
   var_i2 = var_p0;
-  var_i0 = w2c_output_f59(instance, var_i0, var_i1, var_i2);
+  var_i0 = w2c_output_f58(instance, var_i0, var_i1, var_i2);
+  var_i1 = 135720u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_l5 = var_i0;
   var_B0:;
   var_i0 = var_l2;
@@ -5936,6 +5865,131 @@ u32 w2c_output_f19(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i0 += var_i1;
   instance->w2c_g0 = var_i0;
   var_i0 = var_l5;
+  FUNC_EPILOGUE;
+  return var_i0;
+}
+
+u32 w2c_output_f19(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+  u32 var_l3 = 0, var_l4 = 0, var_l5 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2, var_i3, var_i4;
+  var_i0 = instance->w2c_g0;
+  var_i1 = 16u;
+  var_i0 -= var_i1;
+  var_l4 = var_i0;
+  instance->w2c_g0 = var_i0;
+  var_i0 = var_p0;
+  var_i0 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i0) + 4u);
+  var_l3 = var_i0;
+  var_i0 = var_p0;
+  var_i1 = 0u;
+  i32_store8(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
+  var_i0 = var_l3;
+  var_i0 = !(var_i0);
+  if (var_i0) {
+    var_i0 = 1u;
+    var_i1 = var_p0;
+    var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1));
+    var_p0 = var_i1;
+    var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
+    var_l5 = var_i1;
+    var_i2 = var_p2;
+    var_i1 = var_i1 < var_i2;
+    if (var_i1) {goto var_B0;}
+    var_i1 = 101400u;
+    var_i2 = 8u;
+    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+    var_i0 = var_p0;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
+    var_l3 = var_i0;
+    var_i0 = var_p2;
+    if (var_i0) {
+      var_i0 = var_p1;
+      var_i1 = var_l3;
+      var_i2 = var_p2;
+      memory_copy(instance->w2c_env_memory, instance->w2c_env_memory, var_i0, var_i1, var_i2);
+    }
+    var_i0 = 101448u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_p0;
+    var_i1 = var_l5;
+    var_i2 = var_p2;
+    var_i1 -= var_i2;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
+    var_i0 = var_p0;
+    var_i1 = var_p2;
+    var_i2 = var_l3;
+    var_i1 += var_i2;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+    goto var_B1;
+  }
+  var_i0 = 101008u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_p1;
+  var_i1 = var_p0;
+  var_i1 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i1) + 5u);
+  i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+  var_i0 = var_p0;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
+  var_p0 = var_i0;
+  var_i0 = var_l4;
+  var_i1 = 8u;
+  var_i0 += var_i1;
+  var_i1 = 1u;
+  var_i2 = var_p1;
+  var_i3 = var_p2;
+  var_i4 = 65648u;
+  w2c_output_f29(instance, var_i0, var_i1, var_i2, var_i3, var_i4);
+  var_i0 = 101128u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 1u;
+  var_i1 = var_p0;
+  var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
+  var_l5 = var_i1;
+  var_i2 = var_l4;
+  var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 12u);
+  var_p1 = var_i2;
+  var_i1 = var_i1 < var_i2;
+  if (var_i1) {goto var_B0;}
+  var_i1 = 101200u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+  var_i0 = var_p0;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
+  var_p2 = var_i0;
+  var_i0 = var_p1;
+  if (var_i0) {
+    var_i0 = var_l4;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
+    var_i1 = var_p2;
+    var_i2 = var_p1;
+    memory_copy(instance->w2c_env_memory, instance->w2c_env_memory, var_i0, var_i1, var_i2);
+  }
+  var_i0 = 101248u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_p0;
+  var_i1 = var_l5;
+  var_i2 = var_p1;
+  var_i1 -= var_i2;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
+  var_i0 = var_p0;
+  var_i1 = var_p1;
+  var_i2 = var_p2;
+  var_i1 += var_i2;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+  var_B1:;
+  var_i0 = 0u;
+  var_B0:;
+  var_l3 = var_i0;
+  var_i0 = var_l4;
+  var_i1 = 16u;
+  var_i0 += var_i1;
+  instance->w2c_g0 = var_i0;
+  var_i0 = var_l3;
   FUNC_EPILOGUE;
   return var_i0;
 }
@@ -5955,17 +6009,14 @@ void w2c_output_f20(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u3
   var_i1 += var_i2;
   var_l5 = var_i1;
   var_i0 = var_i0 > var_i1;
-  var_i1 = 101440u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = 0u;
     var_p2 = var_i0;
-    var_i0 = 101472u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B0;
   }
+  var_i0 = 122064u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = 0u;
   var_p2 = var_i0;
   var_i0 = 8u;
@@ -5988,14 +6039,11 @@ void w2c_output_f20(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u3
   var_l5 = var_i0;
   var_i1 = 0u;
   var_i0 = (u32)((s32)var_i0 < (s32)var_i1);
-  var_i1 = 101448u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {goto var_B0;}
+  var_i0 = 122248u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l6;
-  var_i1 = 101456u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l4;
     var_i1 = 1u;
@@ -6012,6 +6060,9 @@ void w2c_output_f20(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u3
     var_i1 = 24u;
     var_i0 += var_i1;
   }
+  var_i1 = 122264u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = var_l6;
   i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
   var_i0 = var_l4;
@@ -6021,24 +6072,24 @@ void w2c_output_f20(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u3
   var_i2 = var_l4;
   var_i3 = 20u;
   var_i2 += var_i3;
-  w2c_output_f22(instance, var_i0, var_i1, var_i2);
+  w2c_output_f23(instance, var_i0, var_i1, var_i2);
+  var_i0 = 122344u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l4;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
   var_p2 = var_i0;
   var_i0 = var_l4;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
-  var_i1 = 101464u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l4;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 16u);
     var_p3 = var_i0;
-    var_i0 = 101480u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     goto var_B0;
   }
+  var_i0 = 122392u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p1;
   var_i1 = var_l5;
   i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
@@ -6064,20 +6115,17 @@ void w2c_output_f20(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u3
 u32 w2c_output_f21(w2c_output* instance, u32 var_p0) {
   u32 var_l1 = 0, var_l2 = 0;
   FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3;
+  u32 var_i0, var_i1, var_i2;
   var_i0 = 68680u;
   var_i0 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i0));
-  var_i1 = 101488u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = 68684u;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
-    var_i1 = 101496u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     goto var_B0;
   }
+  var_i0 = 122744u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = (*instance->w2c_env_memory).pages;
   var_l1 = var_i0;
   var_i0 = 68684u;
@@ -6101,17 +6149,14 @@ u32 w2c_output_f21(w2c_output* instance, u32 var_p0) {
   var_l2 = var_i1;
   var_i2 = var_l1;
   var_i1 = var_i1 < var_i2;
-  var_i2 = 101504u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
   if (var_i1) {goto var_B3;}
+  var_i1 = 122960u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i0 = 68688u;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
   var_i1 = var_l2;
   var_i0 = var_i0 < var_i1;
-  var_i1 = 101512u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p0;
     var_i1 = 65535u;
@@ -6126,10 +6171,10 @@ u32 w2c_output_f21(w2c_output* instance, u32 var_p0) {
     var_l1 = var_i0;
     var_i1 = 4294967295u;
     var_i0 = var_i0 == var_i1;
-    var_i1 = 101520u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B2;}
+    var_i0 = 123128u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l1;
     var_i1 = 16u;
     var_i0 <<= (var_i1 & 31);
@@ -6141,10 +6186,10 @@ u32 w2c_output_f21(w2c_output* instance, u32 var_p0) {
     var_l2 = var_i0;
     var_i1 = var_l1;
     var_i0 = var_i0 < var_i1;
-    var_i1 = 101528u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B2;}
+    var_i0 = 123224u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = 68688u;
     var_i1 = var_l2;
     i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
@@ -6155,11 +6200,14 @@ u32 w2c_output_f21(w2c_output* instance, u32 var_p0) {
     var_l2 = var_i1;
     var_i2 = var_l1;
     var_i1 = var_i1 < var_i2;
-    var_i2 = 101536u;
-    var_i3 = 8u;
-    var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
     if (var_i1) {goto var_B3;}
+    var_i1 = 123312u;
+    var_i2 = 8u;
+    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   }
+  var_i0 = 123008u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = 68684u;
   var_i1 = var_l2;
   i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
@@ -6173,7 +6221,100 @@ u32 w2c_output_f21(w2c_output* instance, u32 var_p0) {
   return var_i0;
 }
 
-void w2c_output_f22(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+void w2c_output_deploy_0(w2c_output* instance) {
+  u32 var_l0 = 0, var_l1 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2, var_i3;
+  var_i0 = instance->w2c_g0;
+  var_i1 = 16u;
+  var_i0 -= var_i1;
+  var_l0 = var_i0;
+  instance->w2c_g0 = var_i0;
+  var_i0 = w2c_output_f32(instance);
+  var_i1 = 121088u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+  var_l1 = var_i0;
+  var_i1 = 255u;
+  var_i0 &= var_i1;
+  var_i1 = 5u;
+  var_i0 = var_i0 == var_i1;
+  if (var_i0) {
+    var_i0 = var_l0;
+    var_i1 = 16384u;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 12, var_i1);
+    var_i0 = 68694u;
+    var_i1 = var_l0;
+    var_i2 = 12u;
+    var_i1 += var_i2;
+    w2c_seal0_input(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = 121264u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_l0;
+    var_i1 = var_l0;
+    var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 12u);
+    var_i2 = 68694u;
+    var_i3 = 16384u;
+    w2c_output_f48(instance, var_i0, var_i1, var_i2, var_i3);
+    var_i0 = 121312u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_l0;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
+    var_i1 = 4u;
+    var_i0 = var_i0 >= var_i1;
+    if (var_i0) {
+      var_i0 = var_l0;
+      var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
+      var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
+      var_i1 = 1587392155u;
+      var_i0 = var_i0 == var_i1;
+      if (var_i0) {goto var_B0;}
+      var_i0 = 121432u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    }
+    var_i0 = 121352u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = 1u;
+    var_i1 = 1u;
+    w2c_output_f31(instance, var_i0, var_i1);
+    var_i0 = 121376u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    UNREACHABLE;
+  }
+  var_i0 = 121136u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_l0;
+  var_i1 = var_l1;
+  i32_store8(instance->w2c_env_memory, (u64)(var_i0) + 11, var_i1);
+  var_i0 = var_l0;
+  var_i1 = 11u;
+  var_i0 += var_i1;
+  w2c_output_f44(instance, var_i0);
+  var_i0 = 121192u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  UNREACHABLE;
+  var_B0:;
+  var_i0 = 0u;
+  w2c_output_f25(instance, var_i0);
+  var_i0 = 121064u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  w2c_output_f33(instance);
+  var_i0 = 121072u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  UNREACHABLE;
+  FUNC_EPILOGUE;
+}
+
+void w2c_output_f23(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   u32 var_l3 = 0, var_l4 = 0, var_l5 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2, var_i3;
@@ -6184,62 +6325,65 @@ void w2c_output_f22(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   instance->w2c_g0 = var_i0;
   var_i0 = var_p2;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
-  var_i1 = 101344u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p2;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
     var_l4 = var_i0;
     var_i0 = !(var_i0);
-    var_i1 = 101352u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = var_l3;
       var_i1 = 8u;
       var_i0 += var_i1;
       var_i1 = var_p1;
       w2c_output_f51(instance, var_i0, var_i1);
+      var_i0 = 120304u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       var_i0 = var_l3;
       var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
       var_p2 = var_i0;
       var_i0 = var_l3;
       var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
-      var_i1 = 101376u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
       goto var_B0;
     }
+    var_i0 = 120152u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_p2;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
     var_l5 = var_i0;
     var_i0 = var_p1;
     var_i0 = w2c_output_f21(instance, var_i0);
+    var_i1 = 120192u;
+    var_i2 = 8u;
+    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     var_p2 = var_i0;
     var_i0 = !(var_i0);
     var_i1 = var_l4;
     var_i1 = !(var_i1);
     var_i0 |= var_i1;
     var_i0 = !(var_i0);
-    var_i1 = 101360u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = var_p2;
       var_i1 = var_l5;
       var_i2 = var_l4;
       memory_copy(instance->w2c_env_memory, instance->w2c_env_memory, var_i0, var_i1, var_i2);
     }
+    var_i0 = 120248u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_p1;
-    var_i1 = 101368u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     goto var_B0;
   }
+  var_i0 = 120048u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l3;
   var_i1 = var_p1;
   w2c_output_f51(instance, var_i0, var_i1);
+  var_i0 = 120072u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l3;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
   var_p2 = var_i0;
@@ -6270,195 +6414,12 @@ void w2c_output_f22(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   FUNC_EPILOGUE;
 }
 
-void w2c_output_f23(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3) {
-  u32 var_l4 = 0, var_l5 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3;
-  var_i0 = var_p3;
-  var_i1 = var_p1;
-  var_i1 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i1) + 24u);
-  var_p3 = var_i1;
-  var_i2 = var_p3;
-  var_i3 = 3u;
-  var_i2 = var_i2 == var_i3;
-  var_i0 = var_i2 ? var_i0 : var_i1;
-  var_i1 = 255u;
-  var_i0 &= var_i1;
-  var_p3 = var_i0;
-  var_i1 = 1u;
-  var_i0 -= var_i1;
-  var_i1 = 102032u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  switch (var_i0) {
-    case 0: goto var_B2;
-    case 1: goto var_B1;
-    default: goto var_B0;
-  }
-  var_B2:;
-  var_i0 = var_p2;
-  var_p3 = var_i0;
-  var_i0 = 0u;
-  var_p2 = var_i0;
-  var_i0 = 102024u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-  goto var_B0;
-  var_B1:;
-  var_i0 = var_p2;
-  var_i1 = 1u;
-  var_i0 >>= (var_i1 & 31);
-  var_p3 = var_i0;
-  var_i0 = var_p2;
-  var_i1 = 1u;
-  var_i0 += var_i1;
-  var_i1 = 1u;
-  var_i0 >>= (var_i1 & 31);
-  var_p2 = var_i0;
-  var_B0:;
-  var_i0 = var_p3;
-  var_i1 = 1u;
-  var_i0 += var_i1;
-  var_p3 = var_i0;
-  var_i0 = var_p1;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 16u);
-  var_l4 = var_i0;
-  var_i0 = var_p1;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 32u);
-  var_l5 = var_i0;
-  var_i0 = var_p1;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
-  var_p1 = var_i0;
-  var_i0 = 102040u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-  var_L4: 
-    var_i0 = var_p3;
-    var_i1 = 1u;
-    var_i0 -= var_i1;
-    var_p3 = var_i0;
-    var_i0 = !(var_i0);
-    var_i1 = 102048u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {goto var_B3;}
-    var_i0 = var_p1;
-    var_i1 = var_l4;
-    var_i2 = var_l5;
-    var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 16u);
-    var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32), w2c_output_t5, var_i2, instance->w2c_T0.data[var_i2].module_instance, var_i0, var_i1);
-    var_i0 = !(var_i0);
-    var_i1 = 102056u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {goto var_L4;}
-  var_i0 = 1114112u;
-  var_l4 = var_i0;
-  var_B3:;
-  var_i0 = var_p0;
-  var_i1 = var_p2;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
-  var_i0 = var_p0;
-  var_i1 = var_l4;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-  FUNC_EPILOGUE;
-}
-
-u32 w2c_output_f24(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
-  u32 var_l3 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  var_i0 = var_p0;
-  var_i1 = var_p1;
-  var_i0 = var_i0 <= var_i1;
-  var_i1 = 100024u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = var_p0;
-    var_l3 = var_i0;
-    var_i0 = 100040u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-    var_L2: 
-      var_i0 = var_p2;
-      var_i0 = !(var_i0);
-      var_i1 = 100048u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-      if (var_i0) {goto var_B0;}
-      var_i0 = var_l3;
-      var_i1 = var_p1;
-      var_i1 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i1));
-      i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-      var_i0 = var_l3;
-      var_i1 = 1u;
-      var_i0 += var_i1;
-      var_l3 = var_i0;
-      var_i0 = var_p1;
-      var_i1 = 1u;
-      var_i0 += var_i1;
-      var_p1 = var_i0;
-      var_i0 = var_p2;
-      var_i1 = 1u;
-      var_i0 -= var_i1;
-      var_p2 = var_i0;
-      var_i0 = 100056u;
-      var_i1 = 8u;
-      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-      goto var_L2;
-    UNREACHABLE;
-  }
-  var_i0 = var_p0;
-  var_i1 = 1u;
-  var_i0 -= var_i1;
-  var_l3 = var_i0;
-  var_i0 = var_p1;
-  var_i1 = 1u;
-  var_i0 -= var_i1;
-  var_p1 = var_i0;
-  var_i0 = 100032u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-  var_L3: 
-    var_i0 = var_p2;
-    var_i0 = !(var_i0);
-    var_i1 = 100064u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {goto var_B0;}
-    var_i0 = var_p2;
-    var_i1 = var_l3;
-    var_i0 += var_i1;
-    var_i1 = var_p1;
-    var_i2 = var_p2;
-    var_i1 += var_i2;
-    var_i1 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i1));
-    i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-    var_i0 = var_p2;
-    var_i1 = 1u;
-    var_i0 -= var_i1;
-    var_p2 = var_i0;
-    var_i0 = 100072u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-    goto var_L3;
-  UNREACHABLE;
-  var_B0:;
-  var_i0 = var_p0;
-  FUNC_EPILOGUE;
-  return var_i0;
-}
-
-void w2c_output_f25(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+void w2c_output_f24(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
   u64 var_j1;
   var_i0 = var_p0;
   var_i0 = !(var_i0);
-  var_i1 = 101384u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = instance->w2c_g0;
     var_i1 = 32u;
@@ -6481,9 +6442,15 @@ void w2c_output_f25(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
     var_i1 = 8u;
     var_i0 += var_i1;
     var_i1 = var_p2;
-    w2c_output_f50(instance, var_i0, var_i1);
+    w2c_output_f49(instance, var_i0, var_i1);
+    var_i0 = 120992u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     UNREACHABLE;
   }
+  var_i0 = 120408u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = instance->w2c_g0;
   var_i1 = 48u;
   var_i0 -= var_i1;
@@ -6534,11 +6501,14 @@ void w2c_output_f25(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   var_i1 = 4u;
   var_i0 += var_i1;
   w2c_output_f9(instance, var_i0);
+  var_i0 = 120808u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   FUNC_EPILOGUE;
 }
 
-void w2c_output_f26(w2c_output* instance, u32 var_p0) {
+void w2c_output_f25(w2c_output* instance, u32 var_p0) {
   u32 var_l1 = 0, var_l2 = 0, var_l3 = 0, var_l4 = 0, var_l5 = 0;
   u64 var_l6 = 0;
   FUNC_PROLOGUE;
@@ -6563,7 +6533,10 @@ void w2c_output_f26(w2c_output* instance, u32 var_p0) {
   var_i2 = 36u;
   var_i1 += var_i2;
   var_l2 = var_i1;
-  w2c_output_f38(instance, var_i0, var_i1);
+  w2c_output_f36(instance, var_i0, var_i1);
+  var_i0 = 109400u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l1;
   var_i1 = var_l1;
   var_j1 = i64_load(instance->w2c_env_memory, (u64)(var_i1) + 36u);
@@ -6577,7 +6550,10 @@ void w2c_output_f26(w2c_output* instance, u32 var_p0) {
   var_l3 = var_i1;
   var_i2 = var_l1;
   var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 44u);
-  w2c_output_f32(instance, var_i0, var_i1, var_i2);
+  w2c_output_f34(instance, var_i0, var_i1, var_i2);
+  var_i0 = 109512u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l1;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 20u);
   var_l4 = var_i0;
@@ -6595,7 +6571,10 @@ void w2c_output_f26(w2c_output* instance, u32 var_p0) {
   i64_store(instance->w2c_env_memory, (u64)(var_i0) + 36, var_j1);
   var_i0 = var_p0;
   var_i1 = var_l2;
-  w2c_output_f38(instance, var_i0, var_i1);
+  w2c_output_f36(instance, var_i0, var_i1);
+  var_i0 = 109656u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l1;
   var_i1 = var_l1;
   var_j1 = i64_load(instance->w2c_env_memory, (u64)(var_i1) + 36u);
@@ -6606,7 +6585,10 @@ void w2c_output_f26(w2c_output* instance, u32 var_p0) {
   var_i1 = var_l3;
   var_i2 = var_l1;
   var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 44u);
-  w2c_output_f32(instance, var_i0, var_i1, var_i2);
+  w2c_output_f34(instance, var_i0, var_i1, var_i2);
+  var_i0 = 109744u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l5;
   var_i1 = var_l4;
   var_i2 = var_l1;
@@ -6614,6 +6596,9 @@ void w2c_output_f26(w2c_output* instance, u32 var_p0) {
   var_i3 = var_l1;
   var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
   var_i0 = w2c_seal2_set_storage(instance->w2c_seal2_instance, var_i0, var_i1, var_i2, var_i3);
+  var_i1 = 109800u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i0 = var_l1;
   var_i1 = 48u;
   var_i0 += var_i1;
@@ -6621,7 +6606,178 @@ void w2c_output_f26(w2c_output* instance, u32 var_p0) {
   FUNC_EPILOGUE;
 }
 
-void w2c_output_f27(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+u32 w2c_output_f26(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+  u32 var_l3 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2;
+  var_i0 = var_p0;
+  var_i1 = var_p1;
+  var_i0 = var_i0 <= var_i1;
+  if (var_i0) {
+    var_i0 = var_p0;
+    var_l3 = var_i0;
+    var_L2: 
+      var_i0 = var_p2;
+      var_i0 = !(var_i0);
+      if (var_i0) {goto var_B0;}
+      var_i0 = 100264u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+      var_i0 = var_l3;
+      var_i1 = var_p1;
+      var_i1 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i1));
+      i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+      var_i0 = var_l3;
+      var_i1 = 1u;
+      var_i0 += var_i1;
+      var_l3 = var_i0;
+      var_i0 = var_p1;
+      var_i1 = 1u;
+      var_i0 += var_i1;
+      var_p1 = var_i0;
+      var_i0 = var_p2;
+      var_i1 = 1u;
+      var_i0 -= var_i1;
+      var_p2 = var_i0;
+      goto var_L2;
+    var_i0 = 100232u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    UNREACHABLE;
+  }
+  var_i0 = 100128u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_p0;
+  var_i1 = 1u;
+  var_i0 -= var_i1;
+  var_l3 = var_i0;
+  var_i0 = var_p1;
+  var_i1 = 1u;
+  var_i0 -= var_i1;
+  var_p1 = var_i0;
+  var_L3: 
+    var_i0 = var_p2;
+    var_i0 = !(var_i0);
+    if (var_i0) {goto var_B0;}
+    var_i0 = 100424u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_p2;
+    var_i1 = var_l3;
+    var_i0 += var_i1;
+    var_i1 = var_p1;
+    var_i2 = var_p2;
+    var_i1 += var_i2;
+    var_i1 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i1));
+    i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+    var_i0 = var_p2;
+    var_i1 = 1u;
+    var_i0 -= var_i1;
+    var_p2 = var_i0;
+    goto var_L3;
+  var_i0 = 100200u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  UNREACHABLE;
+  var_B0:;
+  var_i0 = var_p0;
+  FUNC_EPILOGUE;
+  return var_i0;
+}
+
+void w2c_output_f27(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3) {
+  u32 var_l4 = 0, var_l5 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2, var_i3, var_i4;
+  var_i0 = var_p3;
+  var_i1 = var_p1;
+  var_i1 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i1) + 24u);
+  var_p3 = var_i1;
+  var_i2 = var_p3;
+  var_i3 = 3u;
+  var_i2 = var_i2 == var_i3;
+  var_i0 = var_i2 ? var_i0 : var_i1;
+  var_i1 = 255u;
+  var_i0 &= var_i1;
+  var_p3 = var_i0;
+  var_i1 = 1u;
+  var_i0 -= var_i1;
+  switch (var_i0) {
+    case 0: goto var_B2;
+    case 1: goto var_B1;
+    default: goto var_B0;
+  }
+  var_B2:;
+  var_i0 = var_p2;
+  var_p3 = var_i0;
+  var_i0 = 0u;
+  var_p2 = var_i0;
+  goto var_B0;
+  var_B1:;
+  var_i0 = var_p2;
+  var_i1 = 1u;
+  var_i0 >>= (var_i1 & 31);
+  var_p3 = var_i0;
+  var_i0 = var_p2;
+  var_i1 = 1u;
+  var_i0 += var_i1;
+  var_i1 = 1u;
+  var_i0 >>= (var_i1 & 31);
+  var_p2 = var_i0;
+  var_B0:;
+  var_i0 = var_p3;
+  var_i1 = 1u;
+  var_i0 += var_i1;
+  var_p3 = var_i0;
+  var_i0 = var_p1;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 16u);
+  var_l4 = var_i0;
+  var_i0 = var_p1;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 32u);
+  var_l5 = var_i0;
+  var_i0 = var_p1;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
+  var_p1 = var_i0;
+  var_L4: 
+    var_i0 = var_p3;
+    var_i1 = 1u;
+    var_i0 -= var_i1;
+    var_p3 = var_i0;
+    var_i0 = !(var_i0);
+    if (var_i0) {goto var_B3;}
+    var_i0 = 131544u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = var_p1;
+    var_i1 = var_l4;
+    var_i2 = var_l5;
+    var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 16u);
+    var_i3 = 131584u;
+    var_i4 = 8u;
+    var_i3 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i3, var_i4);
+    var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32), w2c_output_t5, var_i2, instance->w2c_T0.data[var_i2].module_instance, var_i0, var_i1);
+    var_i0 = !(var_i0);
+    if (var_i0) {goto var_L4;}
+    var_i0 = 131600u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 131480u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 1114112u;
+  var_l4 = var_i0;
+  var_B3:;
+  var_i0 = var_p0;
+  var_i1 = var_p2;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
+  var_i0 = var_p0;
+  var_i1 = var_l4;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+  FUNC_EPILOGUE;
+}
+
+void w2c_output_f28(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   u32 var_l3 = 0, var_l4 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2, var_i3;
@@ -6638,9 +6794,6 @@ void w2c_output_f27(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   var_i0 -= var_i1;
   var_i1 = var_p2;
   var_i0 = var_i0 < var_i1;
-  var_i1 = 101416u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_l4;
     var_i1 = 8u;
@@ -6649,23 +6802,26 @@ void w2c_output_f27(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
     var_i2 = var_l3;
     var_i3 = var_p2;
     w2c_output_f20(instance, var_i0, var_i1, var_i2, var_i3);
+    var_i0 = 121752u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l4;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
     var_l3 = var_i0;
     var_i1 = 2147483649u;
     var_i0 = var_i0 != var_i1;
-    var_i1 = 101432u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B0;}
+    var_i0 = 121800u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_p0;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
     var_l3 = var_i0;
   }
+  var_i0 = 121600u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p2;
-  var_i1 = 101424u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p0;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
@@ -6675,6 +6831,9 @@ void w2c_output_f27(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
     var_i2 = var_p2;
     memory_copy(instance->w2c_env_memory, instance->w2c_env_memory, var_i0, var_i1, var_i2);
   }
+  var_i0 = 121616u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i1 = var_p2;
   var_i2 = var_l3;
@@ -6690,81 +6849,12 @@ void w2c_output_f27(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   var_i1 = var_l4;
   var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 12u);
   var_i2 = 66460u;
-  w2c_output_f25(instance, var_i0, var_i1, var_i2);
+  w2c_output_f24(instance, var_i0, var_i1, var_i2);
+  var_i0 = 121520u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_Bfunc:;
-  FUNC_EPILOGUE;
-}
-
-void w2c_output_deploy_0(w2c_output* instance) {
-  u32 var_l0 = 0, var_l1 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3;
-  var_i0 = instance->w2c_g0;
-  var_i1 = 16u;
-  var_i0 -= var_i1;
-  var_l0 = var_i0;
-  instance->w2c_g0 = var_i0;
-  var_i0 = w2c_output_f33(instance);
-  var_l1 = var_i0;
-  var_i1 = 255u;
-  var_i0 &= var_i1;
-  var_i1 = 5u;
-  var_i0 = var_i0 == var_i1;
-  var_i1 = 101392u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = var_l0;
-    var_i1 = 16384u;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 12, var_i1);
-    var_i0 = 68694u;
-    var_i1 = var_l0;
-    var_i2 = 12u;
-    var_i1 += var_i2;
-    w2c_seal0_input(instance->w2c_seal0_instance, var_i0, var_i1);
-    var_i0 = var_l0;
-    var_i1 = var_l0;
-    var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 12u);
-    var_i2 = 68694u;
-    var_i3 = 16384u;
-    w2c_output_f49(instance, var_i0, var_i1, var_i2, var_i3);
-    var_i0 = var_l0;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
-    var_i1 = 4u;
-    var_i0 = var_i0 >= var_i1;
-    var_i1 = 101400u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {
-      var_i0 = var_l0;
-      var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
-      var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
-      var_i1 = 1587392155u;
-      var_i0 = var_i0 == var_i1;
-      var_i1 = 101408u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-      if (var_i0) {goto var_B0;}
-    }
-    var_i0 = 1u;
-    var_i1 = 1u;
-    w2c_output_f34(instance, var_i0, var_i1);
-    UNREACHABLE;
-  }
-  var_i0 = var_l0;
-  var_i1 = var_l1;
-  i32_store8(instance->w2c_env_memory, (u64)(var_i0) + 11, var_i1);
-  var_i0 = var_l0;
-  var_i1 = 11u;
-  var_i0 += var_i1;
-  w2c_output_f46(instance, var_i0);
-  UNREACHABLE;
-  var_B0:;
-  var_i0 = 0u;
-  w2c_output_f26(instance, var_i0);
-  w2c_output_f39(instance);
-  UNREACHABLE;
   FUNC_EPILOGUE;
 }
 
@@ -6775,9 +6865,6 @@ void w2c_output_f29(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u3
   var_i0 = var_p1;
   var_i1 = var_p3;
   var_i0 = var_i0 <= var_i1;
-  var_i1 = 100168u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p0;
     var_i1 = var_p3;
@@ -6791,6 +6878,9 @@ void w2c_output_f29(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u3
     i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
     goto var_Bfunc;
   }
+  var_i0 = 101640u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = instance->w2c_g0;
   var_i1 = 48u;
   var_i0 -= var_i1;
@@ -6834,7 +6924,10 @@ void w2c_output_f29(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u3
   var_i1 = 8u;
   var_i0 += var_i1;
   var_i1 = var_p4;
-  w2c_output_f50(instance, var_i0, var_i1);
+  w2c_output_f49(instance, var_i0, var_i1);
+  var_i0 = 101992u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_Bfunc:;
   FUNC_EPILOGUE;
@@ -6852,42 +6945,45 @@ void w2c_output_f30(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   var_i0 = var_p1;
   var_i1 = 0u;
   var_i0 = (u32)((s32)var_i0 >= (s32)var_i1);
-  var_i1 = 101736u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p1;
     var_i0 = !(var_i0);
-    var_i1 = 101744u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = 1u;
       var_l3 = var_i0;
-      var_i0 = 101760u;
-      var_i1 = 8u;
-      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
       goto var_B0;
     }
+    var_i0 = 126864u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l4;
     var_i1 = 8u;
     var_i0 += var_i1;
     var_i1 = var_p1;
     w2c_output_f51(instance, var_i0, var_i1);
+    var_i0 = 126904u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_l4;
     var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
     var_l3 = var_i0;
-    var_i1 = 101752u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_B0;}
+    var_i0 = 126936u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = 1u;
   } else {
     var_i0 = 0u;
   }
+  var_i1 = 126808u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_i1 = var_p1;
   var_i2 = var_p2;
-  w2c_output_f25(instance, var_i0, var_i1, var_i2);
+  w2c_output_f24(instance, var_i0, var_i1, var_i2);
+  var_i0 = 126832u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_B0:;
   var_i0 = var_p0;
@@ -6906,7 +7002,266 @@ void w2c_output_f30(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   FUNC_EPILOGUE;
 }
 
-u32 w2c_output_f31(w2c_output* instance, u32 var_p0, u32 var_p1) {
+void w2c_output_f31(w2c_output* instance, u32 var_p0, u32 var_p1) {
+  u32 var_l2 = 0, var_l3 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2, var_i3;
+  u64 var_j1;
+  var_i0 = instance->w2c_g0;
+  var_i1 = 16u;
+  var_i0 -= var_i1;
+  var_l2 = var_i0;
+  instance->w2c_g0 = var_i0;
+  var_i0 = var_l2;
+  var_j1 = 16384ull;
+  i64_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_j1);
+  var_i0 = var_l2;
+  var_i1 = 68694u;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
+  var_i0 = var_l2;
+  var_i1 = 4u;
+  var_i0 += var_i1;
+  var_l3 = var_i0;
+  var_i1 = var_p1;
+  if (var_i1) {
+    var_i1 = var_l3;
+    var_i2 = 1u;
+    w2c_output_f43(instance, var_i1, var_i2);
+    var_i1 = 108912u;
+    var_i2 = 8u;
+    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+    var_i1 = 1u;
+  } else {
+    var_i1 = 0u;
+  }
+  var_i2 = 108800u;
+  var_i3 = 8u;
+  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
+  w2c_output_f43(instance, var_i0, var_i1);
+  var_i0 = 108808u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_l2;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
+  var_p1 = var_i0;
+  var_i1 = 16385u;
+  var_i0 = var_i0 >= var_i1;
+  if (var_i0) {
+    var_i0 = var_p1;
+    var_i1 = 16384u;
+    var_i2 = 65956u;
+    w2c_output_f37(instance, var_i0, var_i1, var_i2);
+    var_i0 = 108952u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    UNREACHABLE;
+  }
+  var_i0 = 108856u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_p0;
+  var_i1 = var_p1;
+  w2c_output_f52(instance, var_i0, var_i1);
+  var_i0 = 108880u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  UNREACHABLE;
+  FUNC_EPILOGUE;
+}
+
+u32 w2c_output_f32(w2c_output* instance) {
+  u32 var_l0 = 0, var_l1 = 0;
+  u64 var_l2 = 0, var_l3 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2;
+  u64 var_j0, var_j1, var_j2, var_j3;
+  var_i0 = instance->w2c_g0;
+  var_i1 = 32u;
+  var_i0 -= var_i1;
+  var_l0 = var_i0;
+  instance->w2c_g0 = var_i0;
+  var_i0 = var_l0;
+  var_j1 = 0ull;
+  i64_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_j1);
+  var_i0 = var_l0;
+  var_j1 = 0ull;
+  i64_store(instance->w2c_env_memory, (u64)(var_i0), var_j1);
+  var_i0 = var_l0;
+  var_i1 = 16u;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 28, var_i1);
+  var_i0 = var_l0;
+  var_i1 = var_l0;
+  var_i2 = 28u;
+  var_i1 += var_i2;
+  w2c_seal0_value_transferred(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 103224u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_l0;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
+  var_l1 = var_i0;
+  var_i1 = 17u;
+  var_i0 = var_i0 >= var_i1;
+  if (var_i0) {
+    var_i0 = var_l1;
+    var_i1 = 16u;
+    var_i2 = 68620u;
+    w2c_output_f37(instance, var_i0, var_i1, var_i2);
+    var_i0 = 103440u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    UNREACHABLE;
+  }
+  var_i0 = 103272u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_l0;
+  var_j0 = i64_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
+  var_l2 = var_j0;
+  var_i0 = var_l0;
+  var_j0 = i64_load(instance->w2c_env_memory, (u64)(var_i0));
+  var_l3 = var_j0;
+  var_i0 = var_l0;
+  var_i1 = 32u;
+  var_i0 += var_i1;
+  instance->w2c_g0 = var_i0;
+  var_i0 = 5u;
+  var_i1 = 4u;
+  var_j2 = var_l2;
+  var_j3 = var_l3;
+  var_j2 |= var_j3;
+  var_i2 = !(var_j2);
+  var_i0 = var_i2 ? var_i0 : var_i1;
+  FUNC_EPILOGUE;
+  return var_i0;
+}
+
+void w2c_output_f33(w2c_output* instance) {
+  u32 var_l0 = 0, var_l1 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2;
+  u64 var_j1;
+  var_i0 = instance->w2c_g0;
+  var_i1 = 16u;
+  var_i0 -= var_i1;
+  var_l0 = var_i0;
+  instance->w2c_g0 = var_i0;
+  var_i0 = var_l0;
+  var_j1 = 16384ull;
+  i64_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_j1);
+  var_i0 = var_l0;
+  var_i1 = 68694u;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
+  var_i0 = var_l0;
+  var_i1 = 4u;
+  var_i0 += var_i1;
+  var_l1 = var_i0;
+  var_i1 = 0u;
+  w2c_output_f43(instance, var_i0, var_i1);
+  var_i0 = 109096u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_l1;
+  var_i1 = 0u;
+  w2c_output_f43(instance, var_i0, var_i1);
+  var_i0 = 109120u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_l0;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
+  var_l0 = var_i0;
+  var_i1 = 16385u;
+  var_i0 = var_i0 >= var_i1;
+  if (var_i0) {
+    var_i0 = var_l0;
+    var_i1 = 16384u;
+    var_i2 = 65956u;
+    w2c_output_f37(instance, var_i0, var_i1, var_i2);
+    var_i0 = 109232u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    UNREACHABLE;
+  }
+  var_i0 = 109168u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 0u;
+  var_i1 = var_l0;
+  w2c_output_f52(instance, var_i0, var_i1);
+  var_i0 = 109192u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  UNREACHABLE;
+  FUNC_EPILOGUE;
+}
+
+void w2c_output_f34(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+  u32 var_l3 = 0, var_l4 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2;
+  u64 var_j1;
+  var_i0 = instance->w2c_g0;
+  var_i1 = 32u;
+  var_i0 -= var_i1;
+  var_l3 = var_i0;
+  instance->w2c_g0 = var_i0;
+  var_i0 = var_p2;
+  var_i1 = var_p1;
+  var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
+  var_l4 = var_i1;
+  var_i0 = var_i0 > var_i1;
+  if (var_i0) {
+    var_i0 = var_l3;
+    var_i1 = 0u;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 24, var_i1);
+    var_i0 = var_l3;
+    var_i1 = 1u;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 12, var_i1);
+    var_i0 = var_l3;
+    var_i1 = 68292u;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_i1);
+    var_i0 = var_l3;
+    var_j1 = 4ull;
+    i64_store(instance->w2c_env_memory, (u64)(var_i0) + 16, var_j1);
+    var_i0 = var_l3;
+    var_i1 = 8u;
+    var_i0 += var_i1;
+    var_i1 = 68484u;
+    w2c_output_f49(instance, var_i0, var_i1);
+    var_i0 = 110240u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    UNREACHABLE;
+  }
+  var_i0 = 109928u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_p1;
+  var_i1 = var_l4;
+  var_i2 = var_p2;
+  var_i1 -= var_i2;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
+  var_i0 = var_p1;
+  var_i1 = var_p1;
+  var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1));
+  var_p1 = var_i1;
+  var_i2 = var_p2;
+  var_i1 += var_i2;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+  var_i0 = var_p0;
+  var_i1 = var_p2;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
+  var_i0 = var_p0;
+  var_i1 = var_p1;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+  var_i0 = var_l3;
+  var_i1 = 32u;
+  var_i0 += var_i1;
+  instance->w2c_g0 = var_i0;
+  FUNC_EPILOGUE;
+}
+
+u32 w2c_output_f35(w2c_output* instance, u32 var_p0, u32 var_p1) {
   u32 var_l2 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2, var_i3;
@@ -6962,6 +7317,9 @@ u32 w2c_output_f31(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i3 = 8u;
   var_i2 += var_i3;
   var_i0 = w2c_output_f8(instance, var_i0, var_i1, var_i2);
+  var_i1 = 108464u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_p0 = var_i0;
   var_i0 = var_l2;
   var_i1 = 48u;
@@ -6972,186 +7330,62 @@ u32 w2c_output_f31(w2c_output* instance, u32 var_p0, u32 var_p1) {
   return var_i0;
 }
 
-void w2c_output_f32(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
-  u32 var_l3 = 0, var_l4 = 0;
+void w2c_output_f36(w2c_output* instance, u32 var_p0, u32 var_p1) {
+  u32 var_l2 = 0, var_l3 = 0, var_l4 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
-  u64 var_j1;
-  var_i0 = instance->w2c_g0;
-  var_i1 = 32u;
-  var_i0 -= var_i1;
-  var_l3 = var_i0;
-  instance->w2c_g0 = var_i0;
-  var_i0 = var_p2;
-  var_i1 = var_p1;
-  var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
-  var_l4 = var_i1;
-  var_i0 = var_i0 > var_i1;
-  var_i1 = 100552u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = var_l3;
-    var_i1 = 0u;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 24, var_i1);
-    var_i0 = var_l3;
-    var_i1 = 1u;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 12, var_i1);
-    var_i0 = var_l3;
-    var_i1 = 68292u;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_i1);
-    var_i0 = var_l3;
-    var_j1 = 4ull;
-    i64_store(instance->w2c_env_memory, (u64)(var_i0) + 16, var_j1);
-    var_i0 = var_l3;
-    var_i1 = 8u;
-    var_i0 += var_i1;
-    var_i1 = 68484u;
-    w2c_output_f50(instance, var_i0, var_i1);
-    UNREACHABLE;
-  }
   var_i0 = var_p1;
-  var_i1 = var_l4;
-  var_i2 = var_p2;
-  var_i1 -= var_i2;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
-  var_i0 = var_p1;
-  var_i1 = var_p1;
-  var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1));
-  var_p1 = var_i1;
-  var_i2 = var_p2;
-  var_i1 += var_i2;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-  var_i0 = var_p0;
-  var_i1 = var_p2;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
-  var_i0 = var_p0;
-  var_i1 = var_p1;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-  var_i0 = var_l3;
-  var_i1 = 32u;
-  var_i0 += var_i1;
-  instance->w2c_g0 = var_i0;
-  FUNC_EPILOGUE;
-}
-
-u32 w2c_output_f33(w2c_output* instance) {
-  u32 var_l0 = 0, var_l1 = 0;
-  u64 var_l2 = 0, var_l3 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  u64 var_j0, var_j1, var_j2, var_j3;
-  var_i0 = instance->w2c_g0;
-  var_i1 = 32u;
-  var_i0 -= var_i1;
-  var_l0 = var_i0;
-  instance->w2c_g0 = var_i0;
-  var_i0 = var_l0;
-  var_j1 = 0ull;
-  i64_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_j1);
-  var_i0 = var_l0;
-  var_j1 = 0ull;
-  i64_store(instance->w2c_env_memory, (u64)(var_i0), var_j1);
-  var_i0 = var_l0;
-  var_i1 = 16u;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 28, var_i1);
-  var_i0 = var_l0;
-  var_i1 = var_l0;
-  var_i2 = 28u;
-  var_i1 += var_i2;
-  w2c_seal0_value_transferred(instance->w2c_seal0_instance, var_i0, var_i1);
-  var_i0 = var_l0;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
-  var_l1 = var_i0;
-  var_i1 = 17u;
-  var_i0 = var_i0 >= var_i1;
-  var_i1 = 100200u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = var_l1;
-    var_i1 = 16u;
-    var_i2 = 68620u;
-    w2c_output_f35(instance, var_i0, var_i1, var_i2);
-    UNREACHABLE;
-  }
-  var_i0 = var_l0;
-  var_j0 = i64_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
-  var_l2 = var_j0;
-  var_i0 = var_l0;
-  var_j0 = i64_load(instance->w2c_env_memory, (u64)(var_i0));
-  var_l3 = var_j0;
-  var_i0 = var_l0;
-  var_i1 = 32u;
-  var_i0 += var_i1;
-  instance->w2c_g0 = var_i0;
-  var_i0 = 5u;
-  var_i1 = 4u;
-  var_j2 = var_l2;
-  var_j3 = var_l3;
-  var_j2 |= var_j3;
-  var_i2 = !(var_j2);
-  var_i0 = var_i2 ? var_i0 : var_i1;
-  FUNC_EPILOGUE;
-  return var_i0;
-}
-
-void w2c_output_f34(w2c_output* instance, u32 var_p0, u32 var_p1) {
-  u32 var_l2 = 0, var_l3 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3;
-  u64 var_j1;
-  var_i0 = instance->w2c_g0;
-  var_i1 = 16u;
-  var_i0 -= var_i1;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
   var_l2 = var_i0;
-  instance->w2c_g0 = var_i0;
-  var_i0 = var_l2;
-  var_j1 = 16384ull;
-  i64_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_j1);
-  var_i0 = var_l2;
-  var_i1 = 68694u;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
-  var_i0 = var_l2;
-  var_i1 = 4u;
-  var_i0 += var_i1;
-  var_l3 = var_i0;
-  var_i1 = var_p1;
-  var_i2 = 100528u;
-  var_i3 = 8u;
-  var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
-  if (var_i1) {
-    var_i1 = var_l3;
-    var_i2 = 1u;
-    w2c_output_f45(instance, var_i1, var_i2);
-    var_i1 = 1u;
-  } else {
-    var_i1 = 0u;
-  }
-  w2c_output_f45(instance, var_i0, var_i1);
-  var_i0 = var_l2;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
-  var_p1 = var_i0;
-  var_i1 = 16385u;
-  var_i0 = var_i0 >= var_i1;
-  var_i1 = 100536u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+  var_i1 = 4294967292u;
+  var_i0 = var_i0 < var_i1;
   if (var_i0) {
+    var_i0 = var_l2;
+    var_i1 = 4u;
+    var_i0 += var_i1;
+    var_l3 = var_i0;
+    var_i1 = var_p1;
+    var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
+    var_l4 = var_i1;
+    var_i0 = var_i0 > var_i1;
+    if (var_i0) {goto var_B0;}
+    var_i0 = 102760u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_p1;
-    var_i1 = 16384u;
-    var_i2 = 65956u;
-    w2c_output_f35(instance, var_i0, var_i1, var_i2);
-    UNREACHABLE;
+    var_i1 = var_l3;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_i1);
+    var_i0 = var_p1;
+    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
+    var_i1 = var_l2;
+    var_i0 += var_i1;
+    var_i1 = var_p0;
+    i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+    goto var_Bfunc;
   }
-  var_i0 = var_p0;
-  var_i1 = var_p1;
-  w2c_output_f55(instance, var_i0, var_i1);
+  var_i0 = 102664u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 68436u;
+  w2c_output_f42(instance, var_i0);
+  var_i0 = 102680u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
+  var_B0:;
+  var_i0 = var_l3;
+  var_i1 = var_l4;
+  var_i2 = 68452u;
+  w2c_output_f37(instance, var_i0, var_i1, var_i2);
+  var_i0 = 102608u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  UNREACHABLE;
+  var_Bfunc:;
   FUNC_EPILOGUE;
 }
 
-void w2c_output_f35(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+void w2c_output_f37(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   u32 var_l3 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
@@ -7199,12 +7433,15 @@ void w2c_output_f35(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   var_i1 = 8u;
   var_i0 += var_i1;
   var_i1 = var_p2;
-  w2c_output_f50(instance, var_i0, var_i1);
+  w2c_output_f49(instance, var_i0, var_i1);
+  var_i0 = 102560u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   FUNC_EPILOGUE;
 }
 
-void w2c_output_f36(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+void w2c_output_f38(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   u32 var_l3 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
@@ -7252,28 +7489,77 @@ void w2c_output_f36(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   var_i1 = 8u;
   var_i0 += var_i1;
   var_i1 = var_p2;
-  w2c_output_f50(instance, var_i0, var_i1);
+  w2c_output_f49(instance, var_i0, var_i1);
+  var_i0 = 127384u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   FUNC_EPILOGUE;
 }
 
-u32 w2c_output_f37(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
-  u32 var_l3 = 0, var_l4 = 0;
+u32 w2c_output_f39(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3, u32 var_p4) {
   FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  var_i0 = 100096u;
+  u32 var_i0, var_i1, var_i2, var_i3, var_i4, var_i5;
+  var_i0 = var_p2;
+  var_i1 = 1114112u;
+  var_i0 = var_i0 == var_i1;
+  if (var_i0) {goto var_B0;}
+  var_i0 = 130968u;
   var_i1 = 8u;
   var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_p0;
+  var_i1 = var_p2;
+  var_i2 = var_p1;
+  var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 16u);
+  var_i3 = 131008u;
+  var_i4 = 8u;
+  var_i3 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i3, var_i4);
+  var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32), w2c_output_t5, var_i2, instance->w2c_T0.data[var_i2].module_instance, var_i0, var_i1);
+  var_i0 = !(var_i0);
+  if (var_i0) {goto var_B0;}
+  var_i0 = 131024u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 1u;
+  goto var_Bfunc;
+  var_B0:;
+  var_i0 = var_p3;
+  var_i0 = !(var_i0);
+  if (var_i0) {
+    var_i0 = 0u;
+    goto var_Bfunc;
+  }
+  var_i0 = 130888u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_p0;
+  var_i1 = var_p3;
+  var_i2 = var_p4;
+  var_i3 = var_p1;
+  var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+  var_i4 = 130936u;
+  var_i5 = 8u;
+  var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
+  var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
+  var_Bfunc:;
+  FUNC_EPILOGUE;
+  return var_i0;
+}
+
+u32 w2c_output_f40(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+  u32 var_l3 = 0, var_l4 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1;
   var_L0: 
     var_i0 = var_p2;
     var_i0 = !(var_i0);
-    var_i1 = 100104u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = 0u;
       goto var_Bfunc;
     }
+    var_i0 = 100632u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     var_i0 = var_p2;
     var_i1 = 1u;
     var_i0 -= var_i1;
@@ -7295,10 +7581,13 @@ u32 w2c_output_f37(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
     var_i0 = var_l3;
     var_i1 = var_l4;
     var_i0 = var_i0 == var_i1;
-    var_i1 = 100112u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_L0;}
+    var_i0 = 100808u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 100584u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l4;
   var_i1 = var_l3;
   var_i0 -= var_i1;
@@ -7307,161 +7596,19 @@ u32 w2c_output_f37(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   return var_i0;
 }
 
-void w2c_output_f38(w2c_output* instance, u32 var_p0, u32 var_p1) {
-  u32 var_l2 = 0, var_l3 = 0, var_l4 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  var_i0 = var_p1;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 8u);
-  var_l2 = var_i0;
-  var_i1 = 4294967292u;
-  var_i0 = var_i0 < var_i1;
-  var_i1 = 100184u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = var_l2;
-    var_i1 = 4u;
-    var_i0 += var_i1;
-    var_l3 = var_i0;
-    var_i1 = var_p1;
-    var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
-    var_l4 = var_i1;
-    var_i0 = var_i0 > var_i1;
-    var_i1 = 100192u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {goto var_B0;}
-    var_i0 = var_p1;
-    var_i1 = var_l3;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_i1);
-    var_i0 = var_p1;
-    var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
-    var_i1 = var_l2;
-    var_i0 += var_i1;
-    var_i1 = var_p0;
-    i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-    goto var_Bfunc;
-  }
-  var_i0 = 68436u;
-  w2c_output_f44(instance, var_i0);
-  UNREACHABLE;
-  var_B0:;
-  var_i0 = var_l3;
-  var_i1 = var_l4;
-  var_i2 = 68452u;
-  w2c_output_f35(instance, var_i0, var_i1, var_i2);
-  UNREACHABLE;
-  var_Bfunc:;
-  FUNC_EPILOGUE;
-}
-
-void w2c_output_f39(w2c_output* instance) {
-  u32 var_l0 = 0, var_l1 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  u64 var_j1;
-  var_i0 = instance->w2c_g0;
-  var_i1 = 16u;
-  var_i0 -= var_i1;
-  var_l0 = var_i0;
-  instance->w2c_g0 = var_i0;
-  var_i0 = var_l0;
-  var_j1 = 16384ull;
-  i64_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_j1);
-  var_i0 = var_l0;
-  var_i1 = 68694u;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
-  var_i0 = var_l0;
-  var_i1 = 4u;
-  var_i0 += var_i1;
-  var_l1 = var_i0;
-  var_i1 = 0u;
-  w2c_output_f45(instance, var_i0, var_i1);
-  var_i0 = var_l1;
-  var_i1 = 0u;
-  w2c_output_f45(instance, var_i0, var_i1);
-  var_i0 = var_l0;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 12u);
-  var_l0 = var_i0;
-  var_i1 = 16385u;
-  var_i0 = var_i0 >= var_i1;
-  var_i1 = 100544u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = var_l0;
-    var_i1 = 16384u;
-    var_i2 = 65956u;
-    w2c_output_f35(instance, var_i0, var_i1, var_i2);
-    UNREACHABLE;
-  }
-  var_i0 = 0u;
-  var_i1 = var_l0;
-  w2c_output_f55(instance, var_i0, var_i1);
-  UNREACHABLE;
-  FUNC_EPILOGUE;
-}
-
-u32 w2c_output_f40(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3, u32 var_p4) {
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3;
-  var_i0 = var_p2;
-  var_i1 = 1114112u;
-  var_i0 = var_i0 == var_i1;
-  var_i1 = 102008u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {goto var_B0;}
-  var_i0 = var_p0;
-  var_i1 = var_p2;
-  var_i2 = var_p1;
-  var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 16u);
-  var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32), w2c_output_t5, var_i2, instance->w2c_T0.data[var_i2].module_instance, var_i0, var_i1);
-  var_i0 = !(var_i0);
-  var_i1 = 102016u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {goto var_B0;}
-  var_i0 = 1u;
-  goto var_Bfunc;
-  var_B0:;
-  var_i0 = var_p3;
-  var_i0 = !(var_i0);
-  var_i1 = 102000u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = 0u;
-    goto var_Bfunc;
-  }
-  var_i0 = var_p0;
-  var_i1 = var_p3;
-  var_i2 = var_p4;
-  var_i3 = var_p1;
-  var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
-  var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
-  var_Bfunc:;
-  FUNC_EPILOGUE;
-  return var_i0;
-}
-
 u32 w2c_output_f41(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3) {
   u32 var_l4 = 0;
   FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3;
-  var_i0 = 102064u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  u32 var_i0, var_i1, var_i2, var_i3, var_i4;
   var_L1: 
     var_i0 = var_p1;
     var_i1 = var_p1;
     var_i2 = var_l4;
     var_i1 = var_i1 == var_i2;
-    var_i2 = 102072u;
-    var_i3 = 8u;
-    var_i2 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i2, var_i3);
     if (var_i1) {goto var_B0;}
+    var_i1 = 131696u;
+    var_i2 = 8u;
+    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     var_i0 = var_l4;
     var_i1 = 1u;
     var_i0 += var_i1;
@@ -7470,12 +7617,18 @@ u32 w2c_output_f41(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
     var_i1 = var_p0;
     var_i2 = var_p3;
     var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 16u);
+    var_i3 = 131776u;
+    var_i4 = 8u;
+    var_i3 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i3, var_i4);
     var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32), w2c_output_t5, var_i2, instance->w2c_T0.data[var_i2].module_instance, var_i0, var_i1);
     var_i0 = !(var_i0);
-    var_i1 = 102080u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {goto var_L1;}
+    var_i0 = 131792u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = 131632u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l4;
   var_i1 = 1u;
   var_i0 -= var_i1;
@@ -7486,90 +7639,7 @@ u32 w2c_output_f41(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32
   return var_i0;
 }
 
-void w2c_output_f42(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3) {
-  u32 var_l4 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  var_i0 = var_p2;
-  var_i1 = 1u;
-  var_i0 -= var_i1;
-  var_i1 = 102336u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  switch (var_i0) {
-    case 0: goto var_B1;
-    case 1: goto var_B0;
-    default: goto var_B2;
-  }
-  var_B2:;
-  var_i0 = 1u;
-  var_l4 = var_i0;
-  var_i0 = 102328u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-  goto var_B0;
-  var_B1:;
-  var_i0 = var_p1;
-  var_i1 = var_p3;
-  var_i2 = 3u;
-  var_i1 <<= (var_i2 & 31);
-  var_i0 += var_i1;
-  var_p1 = var_i0;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
-  var_p3 = var_i0;
-  var_i0 = var_p1;
-  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
-  var_i0 = !(var_i0);
-  var_l4 = var_i0;
-  var_B0:;
-  var_i0 = var_p0;
-  var_i1 = var_p3;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
-  var_i0 = var_p0;
-  var_i1 = var_l4;
-  i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-  FUNC_EPILOGUE;
-}
-
-u32 w2c_output_f43(w2c_output* instance, u32 var_p0, u32 var_p1) {
-  u32 var_l2 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  var_i0 = var_p1;
-  var_i1 = 102088u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-  if (var_i0) {
-    var_i0 = 102096u;
-    var_i1 = 8u;
-    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-    var_L1: 
-      var_i0 = var_l2;
-      var_i1 = var_p0;
-      var_i1 = i32_load8_s(instance->w2c_env_memory, (u64)(var_i1));
-      var_i2 = 4294967231u;
-      var_i1 = (u32)((s32)var_i1 > (s32)var_i2);
-      var_i0 += var_i1;
-      var_l2 = var_i0;
-      var_i0 = var_p0;
-      var_i1 = 1u;
-      var_i0 += var_i1;
-      var_p0 = var_i0;
-      var_i0 = var_p1;
-      var_i1 = 1u;
-      var_i0 -= var_i1;
-      var_p1 = var_i0;
-      var_i1 = 102104u;
-      var_i2 = 8u;
-      var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-      if (var_i0) {goto var_L1;}
-  }
-  var_i0 = var_l2;
-  FUNC_EPILOGUE;
-  return var_i0;
-}
-
-void w2c_output_f44(w2c_output* instance, u32 var_p0) {
+void w2c_output_f42(w2c_output* instance, u32 var_p0) {
   u32 var_l1 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
@@ -7601,12 +7671,15 @@ void w2c_output_f44(w2c_output* instance, u32 var_p0) {
   i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
   var_i0 = var_l1;
   var_i1 = var_p0;
-  w2c_output_f50(instance, var_i0, var_i1);
+  w2c_output_f49(instance, var_i0, var_i1);
+  var_i0 = 103064u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   FUNC_EPILOGUE;
 }
 
-void w2c_output_f45(w2c_output* instance, u32 var_p0, u32 var_p1) {
+void w2c_output_f43(w2c_output* instance, u32 var_p0, u32 var_p1) {
   u32 var_l2 = 0, var_l3 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
@@ -7617,9 +7690,6 @@ void w2c_output_f45(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 4u);
   var_l3 = var_i1;
   var_i0 = var_i0 < var_i1;
-  var_i1 = 100560u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p0;
     var_i1 = var_l2;
@@ -7634,16 +7704,22 @@ void w2c_output_f45(w2c_output* instance, u32 var_p0, u32 var_p1) {
     i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
     goto var_Bfunc;
   }
+  var_i0 = 110312u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_l2;
   var_i1 = var_l3;
   var_i2 = 68468u;
-  w2c_output_f36(instance, var_i0, var_i1, var_i2);
+  w2c_output_f38(instance, var_i0, var_i1, var_i2);
+  var_i0 = 110344u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   var_Bfunc:;
   FUNC_EPILOGUE;
 }
 
-void w2c_output_f46(w2c_output* instance, u32 var_p0) {
+void w2c_output_f44(w2c_output* instance, u32 var_p0) {
   u32 var_l1 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
@@ -7675,25 +7751,99 @@ void w2c_output_f46(w2c_output* instance, u32 var_p0) {
   i32_store(instance->w2c_env_memory, (u64)(var_i0) + 8, var_i1);
   var_i0 = var_l1;
   var_i1 = 66088u;
-  w2c_output_f50(instance, var_i0, var_i1);
+  w2c_output_f49(instance, var_i0, var_i1);
+  var_i0 = 119800u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   FUNC_EPILOGUE;
+}
+
+void w2c_output_f45(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3) {
+  u32 var_l4 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2;
+  var_i0 = var_p2;
+  var_i1 = 1u;
+  var_i0 -= var_i1;
+  switch (var_i0) {
+    case 0: goto var_B1;
+    case 1: goto var_B0;
+    default: goto var_B2;
+  }
+  var_B2:;
+  var_i0 = 1u;
+  var_l4 = var_i0;
+  goto var_B0;
+  var_B1:;
+  var_i0 = var_p1;
+  var_i1 = var_p3;
+  var_i2 = 3u;
+  var_i1 <<= (var_i2 & 31);
+  var_i0 += var_i1;
+  var_p1 = var_i0;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 4u);
+  var_p3 = var_i0;
+  var_i0 = var_p1;
+  var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
+  var_i0 = !(var_i0);
+  var_l4 = var_i0;
+  var_B0:;
+  var_i0 = var_p0;
+  var_i1 = var_p3;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
+  var_i0 = var_p0;
+  var_i1 = var_l4;
+  i32_store(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+  FUNC_EPILOGUE;
+}
+
+u32 w2c_output_f46(w2c_output* instance, u32 var_p0, u32 var_p1) {
+  u32 var_l2 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2;
+  var_i0 = var_p1;
+  if (var_i0) {
+    var_L1: 
+      var_i0 = var_l2;
+      var_i1 = var_p0;
+      var_i1 = i32_load8_s(instance->w2c_env_memory, (u64)(var_i1));
+      var_i2 = 4294967231u;
+      var_i1 = (u32)((s32)var_i1 > (s32)var_i2);
+      var_i0 += var_i1;
+      var_l2 = var_i0;
+      var_i0 = var_p0;
+      var_i1 = 1u;
+      var_i0 += var_i1;
+      var_p0 = var_i0;
+      var_i0 = var_p1;
+      var_i1 = 1u;
+      var_i0 -= var_i1;
+      var_p1 = var_i0;
+      if (var_i0) {goto var_L1;}
+      var_i0 = 131952u;
+      var_i1 = 8u;
+      var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+    var_i0 = 131824u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  }
+  var_i0 = 131808u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  var_i0 = var_l2;
+  FUNC_EPILOGUE;
+  return var_i0;
 }
 
 u32 w2c_output_f47(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   u32 var_l3 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
-  var_i0 = 100008u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_L0: 
     var_i0 = var_p2;
     var_i1 = var_l3;
     var_i0 = var_i0 == var_i1;
-    var_i1 = 100016u;
-    var_i2 = 8u;
-    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
     if (var_i0) {
       var_i0 = var_p0;
     } else {
@@ -7711,58 +7861,35 @@ u32 w2c_output_f47(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
       var_l3 = var_i0;
       goto var_L0;
     }
-  FUNC_EPILOGUE;
-  return var_i0;
-}
-
-u32 w2c_output_f48(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
-  u32 var_l3 = 0;
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  var_i0 = 100080u;
-  var_i1 = 8u;
-  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
-  var_L0: 
-    var_i0 = var_p2;
-    var_i1 = var_l3;
-    var_i0 = var_i0 == var_i1;
-    var_i1 = 100088u;
+    var_i1 = 100072u;
     var_i2 = 8u;
     var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
-    if (var_i0) {
-      var_i0 = var_p0;
-    } else {
-      var_i0 = var_p0;
-      var_i1 = var_l3;
-      var_i0 += var_i1;
-      var_i1 = var_p1;
-      i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
-      var_i0 = var_l3;
-      var_i1 = 1u;
-      var_i0 += var_i1;
-      var_l3 = var_i0;
-      goto var_L0;
-    }
+  var_i1 = 100040u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   FUNC_EPILOGUE;
   return var_i0;
 }
 
-void w2c_output_f49(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3) {
+void w2c_output_f48(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u32 var_p3) {
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
   var_i0 = var_p1;
   var_i1 = var_p3;
   var_i0 = var_i0 > var_i1;
-  var_i1 = 100176u;
-  var_i2 = 8u;
-  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   if (var_i0) {
     var_i0 = var_p1;
     var_i1 = var_p3;
     var_i2 = 65808u;
-    w2c_output_f35(instance, var_i0, var_i1, var_i2);
+    w2c_output_f37(instance, var_i0, var_i1, var_i2);
+    var_i0 = 102200u;
+    var_i1 = 8u;
+    var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
     UNREACHABLE;
   }
+  var_i0 = 102120u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = var_p0;
   var_i1 = var_p1;
   i32_store(instance->w2c_env_memory, (u64)(var_i0) + 4, var_i1);
@@ -7772,7 +7899,7 @@ void w2c_output_f49(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2, u3
   FUNC_EPILOGUE;
 }
 
-void w2c_output_f50(w2c_output* instance, u32 var_p0, u32 var_p1) {
+void w2c_output_f49(w2c_output* instance, u32 var_p0, u32 var_p1) {
   u32 var_l2 = 0;
   FUNC_PROLOGUE;
   u32 var_i0, var_i1;
@@ -7794,18 +7921,56 @@ void w2c_output_f50(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i1 = 4u;
   var_i0 += var_i1;
   w2c_output_f9(instance, var_i0);
+  var_i0 = 108656u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   UNREACHABLE;
   FUNC_EPILOGUE;
+}
+
+u32 w2c_output_f50(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+  u32 var_l3 = 0;
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2;
+  var_L0: 
+    var_i0 = var_p2;
+    var_i1 = var_l3;
+    var_i0 = var_i0 == var_i1;
+    if (var_i0) {
+      var_i0 = var_p0;
+    } else {
+      var_i0 = var_p0;
+      var_i1 = var_l3;
+      var_i0 += var_i1;
+      var_i1 = var_p1;
+      i32_store8(instance->w2c_env_memory, (u64)(var_i0), var_i1);
+      var_i0 = var_l3;
+      var_i1 = 1u;
+      var_i0 += var_i1;
+      var_l3 = var_i0;
+      goto var_L0;
+    }
+    var_i1 = 100568u;
+    var_i2 = 8u;
+    var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+  var_i1 = 100536u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+  FUNC_EPILOGUE;
+  return var_i0;
 }
 
 void w2c_output_f51(w2c_output* instance, u32 var_p0, u32 var_p1) {
   u32 var_l2 = 0;
   FUNC_PROLOGUE;
-  u32 var_i0, var_i1;
+  u32 var_i0, var_i1, var_i2;
   var_i0 = 68676u;
   var_i0 = i32_load8_u(instance->w2c_env_memory, (u64)(var_i0));
   var_i0 = var_p1;
   var_i0 = w2c_output_f21(instance, var_i0);
+  var_i1 = 122632u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   var_l2 = var_i0;
   var_i0 = var_p0;
   var_i1 = var_p1;
@@ -7816,9 +7981,23 @@ void w2c_output_f51(w2c_output* instance, u32 var_p0, u32 var_p1) {
   FUNC_EPILOGUE;
 }
 
-u32 w2c_output_f52(w2c_output* instance, u32 var_p0, u32 var_p1) {
+void w2c_output_f52(w2c_output* instance, u32 var_p0, u32 var_p1) {
   FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2, var_i3;
+  u32 var_i0, var_i1, var_i2;
+  var_i0 = var_p0;
+  var_i1 = 68694u;
+  var_i2 = var_p1;
+  w2c_seal0_seal_return(instance->w2c_seal0_instance, var_i0, var_i1, var_i2);
+  var_i0 = 110480u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
+  UNREACHABLE;
+  FUNC_EPILOGUE;
+}
+
+u32 w2c_output_f53(w2c_output* instance, u32 var_p0, u32 var_p1) {
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2, var_i3, var_i4, var_i5;
   var_i0 = var_p1;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0) + 28u);
   var_i1 = 66280u;
@@ -7826,26 +8005,32 @@ u32 w2c_output_f52(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i3 = var_p1;
   var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 32u);
   var_i3 = i32_load(instance->w2c_env_memory, (u64)(var_i3) + 12u);
+  var_i4 = 127032u;
+  var_i5 = 8u;
+  var_i4 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i4, var_i5);
   var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32, u32), w2c_output_t7, var_i3, instance->w2c_T0.data[var_i3].module_instance, var_i0, var_i1, var_i2);
   FUNC_EPILOGUE;
   return var_i0;
 }
 
-u32 w2c_output_f53(w2c_output* instance, u32 var_p0, u32 var_p1) {
+u32 w2c_output_f54(w2c_output* instance, u32 var_p0, u32 var_p1) {
   FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
+  u32 var_i0, var_i1, var_i2, var_i3, var_i4;
   var_i0 = var_p0;
   var_i0 = i32_load(instance->w2c_env_memory, (u64)(var_i0));
   var_i1 = var_p1;
   var_i2 = var_p0;
   var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 4u);
   var_i2 = i32_load(instance->w2c_env_memory, (u64)(var_i2) + 12u);
+  var_i3 = 132968u;
+  var_i4 = 8u;
+  var_i3 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i3, var_i4);
   var_i0 = CALL_INDIRECT(instance->w2c_T0, u32 (*)(void*, u32, u32), w2c_output_t5, var_i2, instance->w2c_T0.data[var_i2].module_instance, var_i0, var_i1);
   FUNC_EPILOGUE;
   return var_i0;
 }
 
-u32 w2c_output_f54(w2c_output* instance, u32 var_p0, u32 var_p1) {
+u32 w2c_output_f55(w2c_output* instance, u32 var_p0, u32 var_p1) {
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
   var_i0 = var_p1;
@@ -7854,19 +8039,11 @@ u32 w2c_output_f54(w2c_output* instance, u32 var_p0, u32 var_p1) {
   var_i1 = i32_load(instance->w2c_env_memory, (u64)(var_i1) + 32u);
   var_i2 = var_p0;
   var_i0 = w2c_output_f8(instance, var_i0, var_i1, var_i2);
+  var_i1 = 134608u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
   FUNC_EPILOGUE;
   return var_i0;
-}
-
-void w2c_output_f55(w2c_output* instance, u32 var_p0, u32 var_p1) {
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  var_i0 = var_p0;
-  var_i1 = 68694u;
-  var_i2 = var_p1;
-  w2c_seal0_seal_return(instance->w2c_seal0_instance, var_i0, var_i1, var_i2);
-  UNREACHABLE;
-  FUNC_EPILOGUE;
 }
 
 u32 w2c_output_f56(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
@@ -7875,13 +8052,44 @@ u32 w2c_output_f56(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
   var_i0 = var_p0;
   var_i1 = var_p1;
   var_i2 = var_p2;
-  w2c_output_f27(instance, var_i0, var_i1, var_i2);
+  w2c_output_f28(instance, var_i0, var_i1, var_i2);
+  var_i0 = 125336u;
+  var_i1 = 8u;
+  var_i0 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i0, var_i1);
   var_i0 = 0u;
   FUNC_EPILOGUE;
   return var_i0;
 }
 
-void w2c_output_f57(w2c_output* instance) {
+u32 w2c_output_f57(w2c_output* instance, u32 var_p0, u32 var_p1) {
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2;
+  var_i0 = var_p0;
+  var_i1 = 66288u;
+  var_i2 = var_p1;
+  var_i0 = w2c_output_f8(instance, var_i0, var_i1, var_i2);
+  var_i1 = 123352u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+  FUNC_EPILOGUE;
+  return var_i0;
+}
+
+u32 w2c_output_f58(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
+  FUNC_PROLOGUE;
+  u32 var_i0, var_i1, var_i2;
+  var_i0 = var_p0;
+  var_i1 = var_p1;
+  var_i2 = var_p2;
+  var_i0 = w2c_output_f8(instance, var_i0, var_i1, var_i2);
+  var_i1 = 134864u;
+  var_i2 = 8u;
+  var_i1 = w2c_seal0_debug_message(instance->w2c_seal0_instance, var_i1, var_i2);
+  FUNC_EPILOGUE;
+  return var_i0;
+}
+
+void w2c_output_f59(w2c_output* instance) {
   FUNC_PROLOGUE;
   u32 var_i0, var_i1, var_i2;
   var_i0 = 68676u;
@@ -7889,28 +8097,6 @@ void w2c_output_f57(w2c_output* instance) {
   var_i2 = 16402u;
   memory_fill(instance->w2c_env_memory, var_i0, var_i1, var_i2);
   FUNC_EPILOGUE;
-}
-
-u32 w2c_output_f58(w2c_output* instance, u32 var_p0, u32 var_p1) {
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  var_i0 = var_p0;
-  var_i1 = 66288u;
-  var_i2 = var_p1;
-  var_i0 = w2c_output_f8(instance, var_i0, var_i1, var_i2);
-  FUNC_EPILOGUE;
-  return var_i0;
-}
-
-u32 w2c_output_f59(w2c_output* instance, u32 var_p0, u32 var_p1, u32 var_p2) {
-  FUNC_PROLOGUE;
-  u32 var_i0, var_i1, var_i2;
-  var_i0 = var_p0;
-  var_i1 = var_p1;
-  var_i2 = var_p2;
-  var_i0 = w2c_output_f8(instance, var_i0, var_i1, var_i2);
-  FUNC_EPILOGUE;
-  return var_i0;
 }
 
 void w2c_output_f60(w2c_output* instance, u32 var_p0) {
