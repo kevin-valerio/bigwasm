@@ -30,7 +30,7 @@ struct w2c_seal1;
 struct w2c_seal2;
 extern wasm_rt_memory_t* w2c_env_memory(struct w2c_env*);
 
-typedef struct w2c_toz {
+typedef struct w2c_output {
   struct w2c_seal0* w2c_seal0_instance;
   struct w2c_seal1* w2c_seal1_instance;
   struct w2c_seal2* w2c_seal2_instance;
@@ -40,11 +40,11 @@ typedef struct w2c_toz {
   u32 w2c_g1;
   u32 w2c_g2;
   wasm_rt_funcref_table_t w2c_T0;
-} w2c_toz;
+} w2c_output;
 
-void wasm2c_toz_instantiate(w2c_toz*, struct w2c_env*, struct w2c_seal0*, struct w2c_seal1*, struct w2c_seal2*);
-void wasm2c_toz_free(w2c_toz*);
-wasm_rt_func_type_t wasm2c_toz_get_func_type(uint32_t param_count, uint32_t result_count, ...);
+void wasm2c_output_instantiate(w2c_output*, struct w2c_env*, struct w2c_seal0*, struct w2c_seal1*, struct w2c_seal2*);
+void wasm2c_output_free(w2c_output*);
+wasm_rt_func_type_t wasm2c_output_get_func_type(uint32_t param_count, uint32_t result_count, ...);
 
 /* import: 'seal0' 'debug_message' */
 u32 w2c_seal0_debug_message(struct w2c_seal0*, u32, u32);
@@ -64,15 +64,15 @@ u32 w2c_seal1_get_storage(struct w2c_seal1*, u32, u32, u32, u32);
 /* import: 'seal2' 'set_storage' */
 u32 w2c_seal2_set_storage(struct w2c_seal2*, u32, u32, u32, u32);
 
-extern const u64 wasm2c_toz_min_env_memory;
-extern const u64 wasm2c_toz_max_env_memory;
-extern const u8 wasm2c_toz_is64_env_memory;
+extern const u64 wasm2c_output_min_env_memory;
+extern const u64 wasm2c_output_max_env_memory;
+extern const u8 wasm2c_output_is64_env_memory;
 
 /* export: 'call' */
-void w2c_toz_call(w2c_toz*);
+void w2c_output_call(w2c_output*);
 
 /* export: 'deploy' */
-void w2c_toz_deploy(w2c_toz*);
+void w2c_output_deploy(w2c_output*);
 
 #ifdef __cplusplus
 }
